@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisutf TV+ - Error 404</title>
+    <link rel="icon" type="image/png" href="/media/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --bg-dark: #0f172a;
+            --text: #ffffff;
+            --error: #f44336;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(244,67,54,0.1) 0%, rgba(15,23,42,0) 70%);
+            animation: gradient 15s ease infinite;
+            z-index: 0;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            backdrop-filter: blur(5px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 30px;
+            animation: tvStatic 0.5s steps(3) infinite;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(244,67,54,0.3);
+        }
+
+        @keyframes tvStatic {
+            0% { transform: translate(1px, 1px) scale(1.01); }
+            33% { transform: translate(-1px, -1px) scale(0.99); }
+            66% { transform: translate(1px, -1px) scale(1.01); }
+            100% { transform: translate(-1px, 1px) scale(0.99); }
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #1a73e8, #8ab4f8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 600;
+            color: var(--error);
+            text-shadow: 4px 4px 8px rgba(244,67,54,0.3);
+            animation: glitch 1s linear infinite;
+            position: relative;
+        }
+
+        @keyframes glitch {
+            2%, 64% { transform: translate(2px,0) skew(0deg); }
+            4%, 60% { transform: translate(-2px,0) skew(0deg); }
+            62% { transform: translate(0,0) skew(5deg); }
+        }
+
+        .error-code:before,
+        .error-code:after {
+            content: '404';
+            position: absolute;
+            left: 0;
+            opacity: 0.8;
+        }
+
+        .error-code:before {
+            animation: glitchTop 1s linear infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+        }
+
+        @keyframes glitchTop {
+            2%, 64% { transform: translate(2px,-2px); }
+            4%, 60% { transform: translate(-2px,2px); }
+            62% { transform: translate(13px,-1px) skew(-13deg); }
+        }
+
+        .error-code:after {
+            animation: glitchBottom 1.5s linear infinite;
+            clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+            -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+        }
+
+        @keyframes glitchBottom {
+            2%, 64% { transform: translate(-2px,0); }
+            4%, 60% { transform: translate(-2px,0); }
+            62% { transform: translate(-22px,5px) skew(21deg); }
+        }
+
+        .message {
+            font-size: 1.3rem;
+            margin: 30px 0;
+            line-height: 1.6;
+            opacity: 0.9;
+            text-shadow: 0 0 8px rgba(255,255,255,0.3);
+        }
+
+        .btn {
+            background: var(--primary);
+            color: var(--text);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(26,115,232,0.3);
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(26,115,232,0.4);
+        }
+
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            animation: btnShine 3s linear infinite;
+        }
+
+        @keyframes btnShine {
+            0% { transform: translateX(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) rotate(45deg); }
+        }
+
+        .static-lines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2;
+            opacity: 0.03;
+            background: repeating-linear-gradient(0deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+        }
+
+        @media (max-width: 768px) {
+            .logo { width: 120px; height: 120px; }
+            .title { font-size: 2rem; }
+            .error-code { font-size: 5rem; }
+            .message { font-size: 1.1rem; }
+            .btn { padding: 12px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="static-lines"></div>
+    <div class="container">
+        <img src="/media/Crisutf.tv.png" alt="Logo" class="logo">
+        <h1 class="title">Crisutf TV+</h1>
+        <div class="error-code">404</div>
+        <p class="message">¡Ups! Parece que esta pagina no existe. La señal se ha perdido en el espacio.</p>
+        <a href="/index.html" class="btn">Volver a la programación</a>
+    </div>
+</body>
+</html>

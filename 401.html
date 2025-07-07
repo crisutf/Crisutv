@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisutf TV+ - Error 401</title>
+    <link rel="icon" type="image/png" href="/media/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --bg-dark: #0f172a;
+            --text: #ffffff;
+            --error: #9c27b0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, rgba(156,39,176,0.1) 0%, rgba(15,23,42,0) 70%);
+            animation: pulse 4s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            backdrop-filter: blur(5px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255,255,255,0.05);
+            border: 2px solid rgba(156,39,176,0.3);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(156,39,176,0.3);
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease;
+        }
+
+        .logo:hover {
+            transform: rotateY(180deg);
+        }
+
+        .logo::after {
+            content: '🔒';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotateY(180deg);
+            font-size: 50px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .logo:hover::after {
+            opacity: 1;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #1a73e8, #8ab4f8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 600;
+            color: var(--error);
+            text-shadow: 4px 4px 8px rgba(156,39,176,0.3);
+            position: relative;
+            display: inline-block;
+        }
+
+        .error-code::before {
+            content: '🔐';
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            animation: lockBounce 2s ease infinite;
+        }
+
+        @keyframes lockBounce {
+            0%, 100% { transform: translateX(-50%) rotate(0); }
+            20% { transform: translateX(-50%) rotate(-10deg); }
+            40% { transform: translateX(-50%) rotate(10deg); }
+            60% { transform: translateX(-50%) rotate(-5deg); }
+            80% { transform: translateX(-50%) rotate(5deg); }
+        }
+
+        .message {
+            font-size: 1.3rem;
+            margin: 30px 0;
+            line-height: 1.6;
+            opacity: 0.9;
+            text-shadow: 0 0 8px rgba(255,255,255,0.3);
+        }
+
+        .btn {
+            background: var(--primary);
+            color: var(--text);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(26,115,232,0.3);
+            display: inline-block;
+            position: relative;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(26,115,232,0.4);
+        }
+
+        .key-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .key-particle {
+            position: absolute;
+            font-size: 20px;
+            animation: float-key 6s linear infinite;
+        }
+
+        @keyframes float-key {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .logo { width: 120px; height: 120px; }
+            .title { font-size: 2rem; }
+            .error-code { font-size: 5rem; }
+            .message { font-size: 1.1rem; }
+            .btn { padding: 12px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="key-particles">
+        <span class="key-particle" style="left: 10%; animation-delay: 0s;">🔑</span>
+        <span class="key-particle" style="left: 30%; animation-delay: 2s;">🗝️</span>
+        <span class="key-particle" style="left: 50%; animation-delay: 4s;">🔑</span>
+        <span class="key-particle" style="left: 70%; animation-delay: 1s;">🗝️</span>
+        <span class="key-particle" style="left: 90%; animation-delay: 3s;">🔑</span>
+    </div>
+    <div class="container">
+        <img src="/media/Crisutf.tv.png" alt="Logo" class="logo">
+        <h1 class="title">Crisutf TV+</h1>
+        <div class="error-code">401</div>
+        <p class="message">¡Necesitas iniciar sesión para ver este contenido!</p>
+        <a href="/index.html" class="btn">Iniciar sesión</a>
+    </div>
+</body>
+</html>

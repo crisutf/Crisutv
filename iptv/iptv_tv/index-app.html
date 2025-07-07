@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisutf TV+</title>
+    <link rel="icon" type="image/png" href="/media/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #3b82f6;
+            --bg-dark: #0f172a;
+            --text: #f8fafc;
+            --text-secondary: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: var(--text);
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .main-content {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        .video-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: black;
+        }
+
+        #videoPlayer {
+            width: 100%;
+            height: 100%;
+            max-height: 100vh;
+            object-fit: contain;
+        }
+
+        .app-title {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: var(--primary-light);
+            font-size: 1.5em;
+            z-index: 10;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .channel-indicator {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: var(--text);
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            z-index: 10;
+            display: none;
+            transition: opacity 0.3s;
+        }
+
+        .channel-indicator.show {
+            display: block;
+            animation: fadeInOut 3s forwards;
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        @media (min-width: 1920px) {
+            .app-title {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="video-container">
+            <h1 class="app-title">Crisutf TV+</h1>
+            <div class="channel-indicator" id="channelIndicator"></div>
+            <video id="videoPlayer" playsinline></video>
+        </div>
+    </div>
+
+    <script>
+        const videoPlayer = document.getElementById('videoPlayer');
+        const channelIndicator = document.getElementById('channelIndicator');
+        let currentChannel = 0;
+        let channels = [];
+        let indicatorTimeout;
+
+        function showChannelIndicator(number, name) {
+            channelIndicator.textContent = `${number}. ${name}`;
+            channelIndicator.classList.add('show');
+            clearTimeout(indicatorTimeout);
+            
+            indicatorTimeout = setTimeout(() => {
+                channelIndicator.classList.remove('show');
+            }, 3000);
+        }
+
+        const hls = new Hls({
+            maxBufferLength: 30,
+            maxMaxBufferLength: 600,
+            manifestLoadingTimeOut: 10000,
+            manifestLoadingMaxRetry: 3,
+            levelLoadingTimeOut: 10000,
+            levelLoadingMaxRetry: 3
+        });
+        
+        async function initializePlayer() {
+            try {
+                const response = await fetch('/files/index.m3u');
+                if (!response.ok) throw new Error('Error al cargar la lista de canales');
+                const content = await response.text();
+                channels = parseM3U(content);
+                if (channels.length > 0) {
+                    loadVideo(channels[0].url);
+                    showChannelIndicator(1, channels[0].title);
+                }
+            } catch (error) {
+                console.error('Error:', error.message);
+            }
+        }
+
+        function parseM3U(content) {
+            const lines = content.split('\n');
+            const channels = [];
+            let currentChannel = null;
+
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.startsWith('#EXTINF:')) {
+                    const titleMatch = line.match(/,(.+)$/);
+                    if (titleMatch) {
+                        currentChannel = { title: titleMatch[1], url: '' };
+                    }
+                } else if (line && !line.startsWith('#') && currentChannel) {
+                    currentChannel.url = line;
+                    channels.push(currentChannel);
+                    currentChannel = null;
+                }
+            });
+
+            return channels;
+        }
+
+        function loadVideo(url) {
+            if (Hls.isSupported()) {
+                hls.loadSource(url);
+                hls.attachMedia(videoPlayer);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    videoPlayer.play().catch(() => {
+                        console.log('Reproducción automática bloqueada');
+                    });
+                });
+
+                hls.on(Hls.Events.ERROR, (event, data) => {
+                    if (data.fatal) {
+                        switch(data.type) {
+                            case Hls.ErrorTypes.NETWORK_ERROR:
+                                hls.startLoad();
+                                break;
+                            case Hls.ErrorTypes.MEDIA_ERROR:
+                                hls.recoverMediaError();
+                                break;
+                            default:
+                                hls.destroy();
+                                break;
+                        }
+                    }
+                });
+            } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+                videoPlayer.src = url;
+                videoPlayer.addEventListener('loadedmetadata', () => {
+                    videoPlayer.play().catch(() => {
+                        console.log('Reproducción automática bloqueada');
+                    });
+                });
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowUp':
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    if (currentChannel > 0) {
+                        currentChannel--;
+                        loadVideo(channels[currentChannel].url);
+                        showChannelIndicator(currentChannel + 1, channels[currentChannel].title);
+                    }
+                    break;
+                case 'ArrowDown':
+                case 'ArrowRight':
+                    e.preventDefault();
+                    if (currentChannel < channels.length - 1) {
+                        currentChannel++;
+                        loadVideo(channels[currentChannel].url);
+                        showChannelIndicator(currentChannel + 1, channels[currentChannel].title);
+                    }
+                    break;
+            }
+        });
+
+        initializePlayer();
+
+        videoPlayer.addEventListener('error', (e) => {
+            console.error('Error en el video:', e);
+        });
+
+        if (navigator.userAgent.toLowerCase().indexOf('tv') > -1 || 
+            navigator.userAgent.toLowerCase().indexOf('android') > -1) {
+            document.body.style.fontSize = '1.2em';
+        }
+    </script>
+</body>
+</html>
