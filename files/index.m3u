@@ -2,140 +2,146 @@
 
 # Crisutf
 #EXTINF:-1,Test | Crisutf
-/media/NewChannel.mp4
+https://crisu-tv.pages.dev/media/NewChannel.mp4
 
 # España
 #EXTINF:-1,8madrid TV | España
-/m3u8/8Madrid.m3u8
+http://185.189.225.150:85/8madrid/index.m3u8
 
 #EXTINF:-1,24h | España
-/m3u8/24H.m3u8
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
 #EXTINF:-1,A3Series | España
-/m3u8/A3Series.m3u8
+https://atres-live.atresmedia.com/18d1f671913b8b8ea1513756547a2989917f4410_ES_1751993298_1752022038/h264/live/a3series/master.m3u8
 
 #EXTINF:-1,Action Movie | Rakuten TV
-/m3u8/Rakuten/Action.m3u8
+https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
 
 #EXTINF:-1,AMC | España
-/m3u8/AMC.m3u8
+http://185.189.225.150:85/AMC/index.m3u8
 
 #EXTINF:-1,Antena 3 HD | España
-/m3u8/Antena3.m3u8
-
-#EXTINF:-1,Aragón TV | España
-/m3u8/AragonTV.m3u8
+http://185.189.225.150:85/Antena3HD/index.m3u8
 
 #EXTINF:-1,À Punt TV | España
-/m3u8/APunt.m3u8
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
+
+#EXTINF:-1,Aragón TV | España
+https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 
 #EXTINF:-1,AXN | España
-/m3u8/AXN.m3u8
+http://185.189.225.150:85/AXN/index.m3u8
 
 #EXTINF:-1,Baby TV | España
-/m3u8/BabyTV.m3u8
+http://185.189.225.150:85/BabyTV/index.m3u8
 
 #EXTINF:-1,BBC Drama | Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
-#EXTINF:-1 ,BEIN SPORT EXTRA Ñ | España
-/m3u8/BeinSportExtraN.m3u8
+#EXTINF:-1,BEIN SPORT EXTRA Ñ | España
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 
 #EXTINF:-1,Boing | España
-/m3u8/Boing.m3u8
+http://185.189.225.150:85/boing/index.m3u8
 
 #EXTINF:-1,BOM | España
-/m3u8/BOM.m3u8
-
-#EXTINF:-1,Canal Sur 2 | España   
-/m3u8/CanalSur2.m3u8
-
-#EXTINF:-1,Canal Sur Andalucía | España
-/m3u8/CanalSurAndalucia.m3u8
+http://185.189.225.150:85/BOM/index.m3u8
 
 #EXTINF:-1,Calle 13 | España
-/m3u8/Calle13.m3u8
+http://185.189.225.150:85/calle13/index.m3u8
 
-#EXTINF:-1,Clan | España
-/m3u8/Clan.m3u8
+#EXTINF:-1,Canal 4 | España
+https://limited35.todostreaming.es/live/mitjans-livestream2.m3u8
 
-#EXTINF:-1,Comedia | Rakuten TV
-/m3u8/Rakuten/Comedia.m3u8
+#EXTINF:-1,Canal Sur 2 | España 
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 
-#EXTINF:-1,Cops en Español | Rakuten TV
-/m3u8/Rakuten/Cops.m3u8
+#EXTINF:-1,Canal Sur Andalucía | España
+https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8
 
 #EXTINF:-1,Cine Clasico | Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
+#EXTINF:-1,Clan | España
+https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
+
+#EXTINF:-1,Comedia | Rakuten TV
+https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+
+#EXTINF:-1,Comedy Central (Da problemas y solo deja el audio) | España
+http://185.189.225.150:85/comedycentral/index.m3u8
+
+#EXTINF:-1,Cops en Español | Rakuten TV
+https://rightsboosterltd-cops-1-es.rakuten.wurl.tv/playlist.m3u8
+
 #EXTINF:-1,Crímenes Reales | Rakuten TV
-/m3u8/Rakuten/Crimenes.m3u8
+https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,Cuatro HD | España
-/m3u8/Cuatro.m3u8
+http://185.189.225.150:85/CuatroHD/index.m3u8
 
 #EXTINF:-1,Discovery | España
-/m3u8/Discovery.m3u8
+http://185.189.225.150:85/Discovery/index.m3u8
 
-#EXTINF:-1,Disney Channel (BETA) | Español
+#EXTINF:-1,Disney Channel  | Español
 http://181.78.106.127:9000/play/ca053/index.m3u8
 
 #EXTINF:-1,El País | España
-/m3u8/El-pais.m3u8
+https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
+
+#EXTINF:-1,El Toro TV | España
+https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8
 
 #EXTINF:-1,Esport3 | España
-/m3u8/Esport3.m3u8
+https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
 
 #EXTINF:-1,Estilo y Vida | Rakuten TV
-/m3u8/Rakuten/EstiloVida.m3u8
+https://4a7284f0c8334835adb8f223c36fbc37.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6232/master.m3u8
 
 #EXTINF:-1,ETB1 | España
-https://multimedia.eitb.eus/live-content/etb1hd-hls/bitrate_4.m3u8
+https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
 
 #EXTINF:-1,ETB2 | España
-https://multimedia.eitb.eus/live-content/etb2hd-hls/bitrate_4.m3u8
+https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
 
 #EXTINF:-1,Euronews | Rakuten TV
-/m3u8/Rakuten/Euronews.m3u8
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
 
-#EXTINF:-1,EUROSPORT 1 | España
-/m3u8/EUROSPORT1.m3u8
+#EXTINF:-1,EUROSPORT 1| España
+http://185.189.225.157/EuroSport1/index.m3u8
 
-#EXTINF:-1,EUROSPORT 2 | España
-/m3u8/EUROSPORT2.m3u8
+#EXTINF:-1,EUROSPORT 2| España
+http://185.189.225.157/EuroSport2/index.m3u8
 
 #EXTINF:-1,FDF | España
-/m3u8/FDF.m3u8
+http://185.189.225.150:85/fdf/index.m3u8
 
 #EXTINF:-1,FIFA+ Spain | Rakuten TV
-/m3u8/Rakuten/FIFA-Plus.m3u8
+https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 
-#EXTINF:-1,HBO Plus (BETA) | Español
+#EXTINF:-1,HBO Plus | Español
 http://181.78.106.127:9000/play/ca070/index.m3u8
 
 #EXTINF:-1,HIT TV | España
-/m3u8/HIT-TV.m3u8
+http://185.189.225.150:85/HitTV/index.m3u8
 
 #EXTINF:-1,Iberalia | España
-/m3u8/Iberalia.m3u8
+http://185.189.225.150:85/Iberalia/index.m3u8
 
 #EXTINF:-1,Ideas en 5 minutos | Rakuten TV
-/m3u8/Rakuten/Ideas5min.m3u8
+https://soul-5mincraftspa-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,Kanal D Drama | Samsung TV
-/m3u8/Samsung/KanalD_Drama.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 
 #EXTINF:-1,La 1 | España
-/m3u8/La1.m3u8
+https://ztnr.rtve.es/ztnr/1688877.m3u8
 
 #EXTINF:-1,La 2 | España
-/m3u8/La2.m3u8
+https://ztnr.rtve.es/ztnr/1688885.m3u8
 
 #EXTINF:-1,La 8 Mediterráneo | España
 https://streaming004.gestec-video.com/hls/8TV.m3u8
-
-#EXTINF:-1,LaLiga Inside | Rakuten TV
-/m3u8/Rakuten/LaLigaInside.m3u8
 
 #EXTINF:-1,La Mega Mundial | España
 https://server40.servistreaming.com:3477/stream/play.m3u8
@@ -144,46 +150,49 @@ https://server40.servistreaming.com:3477/stream/play.m3u8
 https://laotra-1-23-secure2.akamaized.net/bitrate_1.m3u8
 
 #EXTINF:-1,La Sexta | España
-/m3u8/LaSexta.m3u8
+http://185.189.225.150:85/LaSexta/index.m3u8
+
+#EXTINF:-1,LaLiga Inside | Rakuten TV
+https://daiconnect.com/live/hls/tvup/rk-ligainside/90358dc4f9a2bcc58260c53040284584/index.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_did=93f81dba-d137-4fd1-a72b-552704745d80&ads_env=prod&ads_gam_correlator=259980630754705&ads_gdpr_consent=&ads_ifa_type=ppid&ads_market=es&ads_opt_out_flag=0&ads_os_language=&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_rtv_content_id=5966&ads_rtv_content_language=spa&ads_streaming_id=c38268a6-c1a2-4834-8540-4ec3abda11a8&ads_tcs_channel_id=227&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=registered&requestuid=ba6482aa-cfe3-435e-b2d7-977830ae6bb1
 
 #EXTINF:-1,Mega | España
-/m3u8/Mega.m3u8
+http://185.189.225.150:85/mega/index.m3u8
 
 #EXTINF:-1,MTV | España
-/m3u8/MTV.m3u8
+http://185.189.225.150:85/MTV/index.m3u8
 
 #EXTINF:-1,MTV Originals | Pluto TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
 
 #EXTINF:-1,National Geographic | España
-/m3u8/NationalGeographic.m3u8
+http://185.189.225.150:85/NationalGeographic/index.m3u8
 
 #EXTINF:-1,Nature Time | Rakuten TV
-/m3u8/Rakuten/NatureTime.m3u8
-
-#EXTINF:-1,Neox | España
-/m3u8/Neox.m3u8
+https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,Negocios | España
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 
+#EXTINF:-1,Neox | España
+http://185.189.225.150:85/neox/index.m3u8
+
 #EXTINF:-1,Nickelodeon | España
-/m3u8/Nickelodeon.m3u8
+http://185.189.225.150:85/nickelodeon/index.m3u8
 
 #EXTINF:-1,Nova | España
-/m3u8/Nova.m3u8
+http://185.189.225.150:85/nova/index.m3u8
 
 #EXTINF:-1,Onda Cádiz 24h | España
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 
 #EXTINF:-1,Paramount | España
-/m3u8/Paramount.m3u8
-
-#EXTINF:-1,People are Awesome | Samsung TV
-/m3u8/Samsung/peopleareawesome.m3u8
+http://185.189.225.150:85/Paramount/index.m3u8
 
 #EXTINF:-1,Peliculas Top | Rakuten TV
-/m3u8/Rakuten/PelisTop.m3u8
+https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8
+
+#EXTINF:-1,People are Awesome | Samsung TV
+https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1,Pluto Acción | Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
@@ -201,73 +210,76 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aab1d2
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Rakuten Viki | Rakuten TV
-/m3u8/Rakuten/Viki.m3u8
+https://newidco-rakutenviki-3-es.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1,RealMadrid TV | España
-/m3u8/RealmadridTV.m3u8
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 
 #EXTINF:-1,RNE para todos | España
-/m3u8/RNE.m3u8
-
-#EXTINF:-1,RTVE Conciertos Radio 3 | España
-/m3u8/La2_Radio_Concierto.m3u8
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8
 
 #EXTINF:-1,RTVE Cuéntame | España
-/m3u8/Cuentame.m3u8
+https://ztnr.rtve.es/ztnr/6909843.m3u8
+
+#EXTINF:-1,RTVE La 2 Conciertos Radio 3 | España
+https://ztnr.rtve.es/ztnr/6924117.m3u8
 
 #EXTINF:-1,RTVE La promesa | España
-/m3u8/LaPromesa.m3u8
+https://ztnr.rtve.es/ztnr/2472039.m3u8
 
 #EXTINF:-1,RTVE La Revuelta | España
-/m3u8/Revuelta.m3u8
+https://ztnr.rtve.es/ztnr/16464388.m3u8
 
 #EXTINF:-1,RTVE Saber y ganar | España
-/m3u8/SaberGanar.m3u8
+https://ztnr.rtve.es/ztnr/6922467.m3u8
 
 #EXTINF:-1,RTVE Somos Cine | España
-/m3u8/IAMCine.m3u8
+https://ztnr.rtve.es/ztnr/6909845.m3u8
 
 #EXTINF:-1,RTVE Talent | España
-/m3u8/Talentuski.m3u8
+https://ztnr.rtve.es/ztnr/16510071.m3u8
 
-#EXTINF:-1,Sky Sports | España
+#EXTINF:-1,Sky Sports| España
 http://181.78.106.127:9000/play/ca030/index.m3u8
 
 #EXTINF:-1,Somos | España
-/m3u8/Somos.m3u8
+http://185.189.225.150:85/somos/index.m3u8
+
+#EXTINF:-1,SYFY | España
+http://185.189.225.150:85/syfy/index.m3u8
 
 #EXTINF:-1,TCM | España
-/m3u8/TCM.m3u8
+http://185.189.225.150:85/TCM/index.m3u8
 
 #EXTINF:-1,Tdp | España
-/m3u8/TDP.m3u8
-
-#EXTINF:-1,The Pet Collective | Samsung TV
-/m3u8/Samsung/Animaluskis.m3u8
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr.m3u8
 
 #EXTINF:-1,Telecinco HD | España
-/m3u8/Telecinco.m3u8
+http://185.189.225.150:85/TeleCincoHD/index.m3u8
 
 #EXTINF:-1,TeleMadrid | España
 https://telemadrid-23-secure2.akamaized.net/bitrate_1.m3u8
 
+#EXTINF:-1,The Pet Collective | Samsung TV
+https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
+
 #EXTINF:-1,Trace Sport Stars | Samsung TV
-/m3u8/Samsung/Trace.m3u8
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
 
 #EXTINF:-1,TRECE | España
-/m3u8/TRECE.m3u8
+https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 
 #EXTINF:-1,TV3 | España
-/m3u8/TV3.m3u8
+http://185.189.225.150:85/tv3/index.m3u8
 
 #EXTINF:-1,TVE Int. Europ | España
-/m3u8/TVE.Internacional_EU.m3u8
+https://rtvelivestream.rtve.es/rtvesec/int/tvei_eu_main_dvr.m3u8
 
 #EXTINF:-1,TVE Star HD | España
-/m3u8/TVE_Star.m3u8
+https://rtvelivestream.rtve.es/rtvesec/int/star_main.m3u8
 
 #EXTINF:-1,Vevo Pop Spain | Rakuten TV
-/m3u8/Rakuten/VevoSpain.m3u8
+https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
