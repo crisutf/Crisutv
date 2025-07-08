@@ -101,7 +101,7 @@
     <script>
     // Fecha y hora fin mantenimiento: 3 julio 2025, 20:00 (hora España de verano, UTC+2)
     // En UTC sería 2025-07-03T18:00:00Z
-    const endDate = new Date('2025-07-04T19:00:00Z');
+    const endDate = new Date('2025-07-10T19:00:00Z');
 
     function updateCountdown() {
         const now = new Date();
@@ -126,7 +126,7 @@
             seconds.toString().padStart(2, '0');
 
         document.getElementById('countdown').textContent =
-            'Tiempo restante para fin de mantenimiento: ' + timeString;
+            'Tiempo restante para fin del mantenimiento :.: ' + timeString;
     }
 
     updateCountdown();

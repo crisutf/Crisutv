@@ -380,7 +380,7 @@ function loadDownloadPage(container) {
     <div class="download-grid">
       <a href="download/Crisutf.TV-Mobile.apk" class="download-btn"><span class="download-icon">📱</span><span class="download-text"><strong>Android (Móvil)</strong><small>Para teléfonos y tablets</small></span></a>
       <a href="download/Crisutf.TV-TV.apk" class="download-btn"><span class="download-icon">📺</span><span class="download-text"><strong>Android TV</strong><small>Para Smart TV y TV Box</small></span></a>
-      <a href="download/Crisutf.TV-PC.exe" class="download-btn"><span class="download-icon">💻</span><span class="download-text"><strong>Windows (PC)</strong><small>Para computadoras</small></span></a>
+      <a href="https://drive.google.com/file/d/15DtlCrPpfsVACk9GyDZalDcyZ0W4QIp3/view" class="download-btn"><span class="download-icon">💻</span><span class="download-text"><strong>Windows (PC)</strong><small>Para computadoras</small></span></a>
       <a href="download/Crisutf.TV-ServerLocal.exe" class="download-btn"><span class="download-icon">🖥️</span><span class="download-text"><strong>Modo Servidor <h5>(Fuera de soporte)</h5></strong><small>Para uso en red local</small></span></a>
     </div>
   </div>

@@ -2,270 +2,272 @@
 
 # Crisutf
 #EXTINF:-1,Test | Crisutf
-https://crisu-tv.pages.dev/media/NewChannel.mp4
-
+/media/NewChannel.mp4
 
 # España
-#EXTINF:-1,24h | España
-https://crisu-tv.pages.dev/m3u8/24H.m3u8
-
 #EXTINF:-1,8madrid TV | España
-https://crisu-tv.pages.dev/m3u8/8Madrid.m3u8
+/m3u8/8Madrid.m3u8
+
+#EXTINF:-1,24h | España
+/m3u8/24H.m3u8
 
 #EXTINF:-1,A3Series | España
-https://crisu-tv.pages.dev/m3u8/A3Series.m3u8
+/m3u8/A3Series.m3u8
 
 #EXTINF:-1,Action Movie | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/Rakuten/Action.m3u8
+/m3u8/Rakuten/Action.m3u8
 
 #EXTINF:-1,AMC | España
-https://crisu-tv.pages.dev/m3u8/06.m3u8
+/m3u8/AMC.m3u8
 
 #EXTINF:-1,Antena 3 HD | España
-https://crisu-tv.pages.dev/m3u8/07.m3u8
+/m3u8/Antena3.m3u8
 
 #EXTINF:-1,Aragón TV | España
-https://crisu-tv.pages.dev/m3u8/08.m3u8
+/m3u8/AragonTV.m3u8
 
 #EXTINF:-1,À Punt TV | España
-https://crisu-tv.pages.dev/m3u8/09.m3u8
+/m3u8/APunt.m3u8
 
 #EXTINF:-1,AXN | España
-https://crisu-tv.pages.dev/m3u8/10.m3u8
+/m3u8/AXN.m3u8
 
 #EXTINF:-1,Baby TV | España
-https://crisu-tv.pages.dev/m3u8/11.m3u8
+/m3u8/BabyTV.m3u8
 
 #EXTINF:-1,BBC Drama | Pluto TV
-https://crisu-tv.pages.dev/m3u8/12.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1 ,BEIN SPORT EXTRA Ñ | España
-https://crisu-tv.pages.dev/m3u8/13.m3u8
+/m3u8/BeinSportExtraN.m3u8
 
 #EXTINF:-1,Boing | España
-https://crisu-tv.pages.dev/m3u8/14.m3u8
+/m3u8/Boing.m3u8
 
 #EXTINF:-1,BOM | España
-https://crisu-tv.pages.dev/m3u8/15.m3u8
+/m3u8/BOM.m3u8
+
+#EXTINF:-1,Canal Sur 2 | España   
+/m3u8/CanalSur2.m3u8
 
 #EXTINF:-1,Canal Sur Andalucía | España
-https://crisu-tv.pages.dev/m3u8/16.m3u8
+/m3u8/CanalSurAndalucia.m3u8
 
 #EXTINF:-1,Calle 13 | España
-https://crisu-tv.pages.dev/m3u8/17.m3u8
+/m3u8/Calle13.m3u8
 
 #EXTINF:-1,Clan | España
-https://crisu-tv.pages.dev/m3u8/18.m3u8
+/m3u8/Clan.m3u8
 
 #EXTINF:-1,Comedia | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/19.m3u8
+/m3u8/Rakuten/Comedia.m3u8
 
 #EXTINF:-1,Cops en Español | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/20.m3u8
+/m3u8/Rakuten/Cops.m3u8
 
 #EXTINF:-1,Cine Clasico | Pluto TV
-https://crisu-tv.pages.dev/m3u8/21.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Crímenes Reales | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/22.m3u8
+/m3u8/Rakuten/Crimenes.m3u8
 
 #EXTINF:-1,Cuatro HD | España
-https://crisu-tv.pages.dev/m3u8/23.m3u8
+/m3u8/Cuatro.m3u8
 
 #EXTINF:-1,Discovery | España
-https://crisu-tv.pages.dev/m3u8/24.m3u8
+/m3u8/Discovery.m3u8
 
-#EXTINF:-1,Disney Channel  | Español
-https://crisu-tv.pages.dev/m3u8/25.m3u8
+#EXTINF:-1,Disney Channel (BETA) | Español
+http://181.78.106.127:9000/play/ca053/index.m3u8
 
 #EXTINF:-1,El País | España
-https://crisu-tv.pages.dev/m3u8/26.m3u8
+/m3u8/El-pais.m3u8
 
 #EXTINF:-1,Esport3 | España
-https://crisu-tv.pages.dev/m3u8/27.m3u8
+/m3u8/Esport3.m3u8
 
 #EXTINF:-1,Estilo y Vida | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/28.m3u8
+/m3u8/Rakuten/EstiloVida.m3u8
+
+#EXTINF:-1,ETB1 | España
+https://multimedia.eitb.eus/live-content/etb1hd-hls/bitrate_4.m3u8
 
 #EXTINF:-1,ETB2 | España
-https://crisu-tv.pages.dev/m3u8/29.m3u8
+https://multimedia.eitb.eus/live-content/etb2hd-hls/bitrate_4.m3u8
 
 #EXTINF:-1,Euronews | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/30.m3u8
+/m3u8/Rakuten/Euronews.m3u8
 
-#EXTINF:-1,EUROSPORT 1| España
-https://crisu-tv.pages.dev/m3u8/31.m3u8
+#EXTINF:-1,EUROSPORT 1 | España
+/m3u8/EUROSPORT1.m3u8
 
-#EXTINF:-1,EUROSPORT 2| España
-https://crisu-tv.pages.dev/m3u8/32.m3u8
+#EXTINF:-1,EUROSPORT 2 | España
+/m3u8/EUROSPORT2.m3u8
 
 #EXTINF:-1,FDF | España
-https://crisu-tv.pages.dev/m3u8/33.m3u8
+/m3u8/FDF.m3u8
 
 #EXTINF:-1,FIFA+ Spain | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/34.m3u8
+/m3u8/Rakuten/FIFA-Plus.m3u8
 
-#EXTINF:-1,HBO Plus | Español
-https://crisu-tv.pages.dev/m3u8/35.m3u8
+#EXTINF:-1,HBO Plus (BETA) | Español
+http://181.78.106.127:9000/play/ca070/index.m3u8
 
 #EXTINF:-1,HIT TV | España
-https://crisu-tv.pages.dev/m3u8/36.m3u8
+/m3u8/HIT-TV.m3u8
 
 #EXTINF:-1,Iberalia | España
-https://crisu-tv.pages.dev/m3u8/37.m3u8
+/m3u8/Iberalia.m3u8
 
 #EXTINF:-1,Ideas en 5 minutos | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/38.m3u8
+/m3u8/Rakuten/Ideas5min.m3u8
 
 #EXTINF:-1,Kanal D Drama | Samsung TV
-https://crisu-tv.pages.dev/m3u8/39.m3u8
+/m3u8/Samsung/KanalD_Drama.m3u8
 
 #EXTINF:-1,La 1 | España
-https://crisu-tv.pages.dev/m3u8/40.m3u8
+/m3u8/La1.m3u8
 
 #EXTINF:-1,La 2 | España
-https://crisu-tv.pages.dev/m3u8/41.m3u8
+/m3u8/La2.m3u8
 
 #EXTINF:-1,La 8 Mediterráneo | España
-https://crisu-tv.pages.dev/m3u8/42.m3u8
+https://streaming004.gestec-video.com/hls/8TV.m3u8
 
 #EXTINF:-1,LaLiga Inside | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/43.m3u8
+/m3u8/Rakuten/LaLigaInside.m3u8
 
 #EXTINF:-1,La Mega Mundial | España
-https://crisu-tv.pages.dev/m3u8/44.m3u8
+https://server40.servistreaming.com:3477/stream/play.m3u8
 
 #EXTINF:-1,LaOtra | España
-https://crisu-tv.pages.dev/m3u8/45.m3u8
+https://laotra-1-23-secure2.akamaized.net/bitrate_1.m3u8
 
 #EXTINF:-1,La Sexta | España
-https://crisu-tv.pages.dev/m3u8/46.m3u8
+/m3u8/LaSexta.m3u8
 
 #EXTINF:-1,Mega | España
-https://crisu-tv.pages.dev/m3u8/47.m3u8
+/m3u8/Mega.m3u8
 
 #EXTINF:-1,MTV | España
-https://crisu-tv.pages.dev/m3u8/48.m3u8
+/m3u8/MTV.m3u8
 
 #EXTINF:-1,MTV Originals | Pluto TV
-https://crisu-tv.pages.dev/m3u8/49.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
 
 #EXTINF:-1,National Geographic | España
-https://crisu-tv.pages.dev/m3u8/50.m3u8
+/m3u8/NationalGeographic.m3u8
 
 #EXTINF:-1,Nature Time | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/51.m3u8
+/m3u8/Rakuten/NatureTime.m3u8
 
 #EXTINF:-1,Neox | España
-https://crisu-tv.pages.dev/m3u8/52.m3u8
+/m3u8/Neox.m3u8
 
 #EXTINF:-1,Negocios | España
-https://crisu-tv.pages.dev/m3u8/53.m3u8
+https://streaming013.gestec-video.com/hls/negociostv.m3u8
 
 #EXTINF:-1,Nickelodeon | España
-https://crisu-tv.pages.dev/m3u8/54.m3u8
+/m3u8/Nickelodeon.m3u8
 
 #EXTINF:-1,Nova | España
-https://crisu-tv.pages.dev/m3u8/55.m3u8
+/m3u8/Nova.m3u8
 
 #EXTINF:-1,Onda Cádiz 24h | España
-https://crisu-tv.pages.dev/m3u8/56.m3u8
+https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 
 #EXTINF:-1,Paramount | España
-https://crisu-tv.pages.dev/m3u8/57.m3u8
+/m3u8/Paramount.m3u8
 
 #EXTINF:-1,People are Awesome | Samsung TV
-https://crisu-tv.pages.dev/m3u8/58.m3u8
+/m3u8/Samsung/peopleareawesome.m3u8
 
 #EXTINF:-1,Peliculas Top | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/59.m3u8
+/m3u8/Rakuten/PelisTop.m3u8
 
 #EXTINF:-1,Pluto Acción | Pluto TV
-https://crisu-tv.pages.dev/m3u8/60.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Pluto Cocina | Pluto TV
-https://crisu-tv.pages.dev/m3u8/61.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acdaa8ba90f0007d5e760/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Pluto Kids Classics | Pluto TV
-https://crisu-tv.pages.dev/m3u8/62.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/609e7e423e9173000706a681/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Pluto Kids | Pluto TV
-https://crisu-tv.pages.dev/m3u8/63.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aab1d29b39600073e243f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Pluto Telenovelas | Pluto TV
-https://crisu-tv.pages.dev/m3u8/64.m3u8
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b4c06717da110007ee1af6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 
 #EXTINF:-1,Rakuten Viki | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/65.m3u8
+/m3u8/Rakuten/Viki.m3u8
 
 #EXTINF:-1,RealMadrid TV | España
-https://crisu-tv.pages.dev/m3u8/66.m3u8
+/m3u8/RealmadridTV.m3u8
 
 #EXTINF:-1,RNE para todos | España
-https://crisu-tv.pages.dev/m3u8/67.m3u8
+/m3u8/RNE.m3u8
 
 #EXTINF:-1,RTVE Conciertos Radio 3 | España
-https://crisu-tv.pages.dev/m3u8/68.m3u8
+/m3u8/La2_Radio_Concierto.m3u8
 
 #EXTINF:-1,RTVE Cuéntame | España
-https://crisu-tv.pages.dev/m3u8/69.m3u8
-
-#EXTINF:-1,RTVE Eurovisión | España
-https://crisu-tv.pages.dev/m3u8/70.m3u8
+/m3u8/Cuentame.m3u8
 
 #EXTINF:-1,RTVE La promesa | España
-https://crisu-tv.pages.dev/m3u8/71.m3u8
+/m3u8/LaPromesa.m3u8
 
 #EXTINF:-1,RTVE La Revuelta | España
-https://crisu-tv.pages.dev/m3u8/72.m3u8
+/m3u8/Revuelta.m3u8
 
 #EXTINF:-1,RTVE Saber y ganar | España
-https://crisu-tv.pages.dev/m3u8/73.m3u8
+/m3u8/SaberGanar.m3u8
 
 #EXTINF:-1,RTVE Somos Cine | España
-https://crisu-tv.pages.dev/m3u8/74.m3u8
+/m3u8/IAMCine.m3u8
 
 #EXTINF:-1,RTVE Talent | España
-https://crisu-tv.pages.dev/m3u8/75.m3u8
+/m3u8/Talentuski.m3u8
 
-#EXTINF:-1,Sky Sports| España
-https://crisu-tv.pages.dev/m3u8/76.m3u8
+#EXTINF:-1,Sky Sports | España
+http://181.78.106.127:9000/play/ca030/index.m3u8
 
 #EXTINF:-1,Somos | España
-https://crisu-tv.pages.dev/m3u8/77.m3u8
+/m3u8/Somos.m3u8
 
 #EXTINF:-1,TCM | España
-https://crisu-tv.pages.dev/m3u8/78.m3u8
+/m3u8/TCM.m3u8
 
 #EXTINF:-1,Tdp | España
-https://crisu-tv.pages.dev/m3u8/79.m3u8
+/m3u8/TDP.m3u8
 
 #EXTINF:-1,The Pet Collective | Samsung TV
-https://crisu-tv.pages.dev/m3u8/80.m3u8
+/m3u8/Samsung/Animaluskis.m3u8
 
 #EXTINF:-1,Telecinco HD | España
-https://crisu-tv.pages.dev/m3u8/81.m3u8
+/m3u8/Telecinco.m3u8
 
 #EXTINF:-1,TeleMadrid | España
-https://crisu-tv.pages.dev/m3u8/82.m3u8
+https://telemadrid-23-secure2.akamaized.net/bitrate_1.m3u8
 
 #EXTINF:-1,Trace Sport Stars | Samsung TV
-https://crisu-tv.pages.dev/m3u8/83.m3u8
+/m3u8/Samsung/Trace.m3u8
 
-#EXTINF:-1,TRECE | España
-https://crisu-tv.pages.dev/m3u8/84.m3u8
+#EXTINF:-1,TRECE (No Disponible) | España
+https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 
 #EXTINF:-1,TV3 | España
-https://crisu-tv.pages.dev/m3u8/85.m3u8
+/m3u8/TV3.m3u8
 
 #EXTINF:-1,TVE Int. Europ | España
-https://crisu-tv.pages.dev/m3u8/86.m3u8
+/m3u8/TVE.Internacional_EU.m3u8
 
 #EXTINF:-1,TVE Star HD | España
-https://crisu-tv.pages.dev/m3u8/87.m3u8
+/m3u8/TVE_Star.m3u8
 
 #EXTINF:-1,Vevo Pop Spain | Rakuten TV
-https://crisu-tv.pages.dev/m3u8/88.m3u8
+/m3u8/Rakuten/VevoSpain.m3u8
 
 #EXTINF:-1,WWE
-https://crisu-tv.pages.dev/m3u8/89.m3u8
+http://181.78.106.127:9000/play/ca040/index.m3u8
