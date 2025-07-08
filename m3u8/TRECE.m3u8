@@ -1,0 +1,4 @@
+#EXTM3U
+
+#EXT-X-STREAM-INF:CODECS="avc1.4d001f,mp4a.40.2",BANDWIDTH=1954000
+https://live-edge-par-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8
