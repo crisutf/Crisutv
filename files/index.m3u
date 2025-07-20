@@ -12,7 +12,7 @@ http://185.189.225.150:85/8madrid/index.m3u8
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
 #EXTINF:-1,A3Series | España
-https://atres-live.atresmedia.com/18d1f671913b8b8ea1513756547a2989917f4410_ES_1751993298_1752022038/h264/live/a3series/master.m3u8
+https://atres-live.atresmedia.com/2d000ce431751533f1079aa52eead1088b618e28_ES_1753040431_1753069171/h264/live/a3series/master.m3u8
 
 #EXTINF:-1,Action Movie | Rakuten TV
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
@@ -69,7 +69,7 @@ https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
 https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
 
 #EXTINF:-1,Comedy Central (Da problemas) | España
-http://crisu-tv.pages.dev/m3u8/ComedyCentral.m3u8
+http://185.189.225.150:85/comedycentral/index.m3u8
 
 #EXTINF:-1,Cops en Español | Rakuten TV
 https://rightsboosterltd-cops-1-es.rakuten.wurl.tv/playlist.m3u8
