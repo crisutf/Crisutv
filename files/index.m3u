@@ -12,7 +12,7 @@ http://185.189.225.150:85/8madrid/index.m3u8
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
 #EXTINF:-1,A3Series | España
-https://atres-live.atresmedia.com/02aca22b6adfcce86e4666b4e17e1becfa362802_ES_1753112748_1753141488/h264/live/a3series/master.m3u8
+https://atres-live.atresmedia.com/61ae84a903030e7a6ae253f54a654b0bd39898dc_ES_1753383419_1753412159/h264/live/a3series/master.m3u8
 
 #EXTINF:-1,Action Movie | Rakuten TV
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
@@ -55,9 +55,6 @@ https://limited35.todostreaming.es/live/mitjans-livestream2.m3u8
 
 #EXTINF:-1,Canal Sur 2 | España 
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
-
-#EXTINF:-1,Canal Sur Andalucía | España
-https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8
 
 #EXTINF:-1,Cine Clasico | Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
