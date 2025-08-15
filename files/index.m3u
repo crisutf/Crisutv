@@ -32,8 +32,8 @@ https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 #EXTINF:-1,AXN | España
 http://185.189.225.152/AXN/index.m3u8
 
-#EXTINF:-1,Baby TV ⚠️ | España
-http://185.189.225.150:85/BabyTV/index.m3u8
+#EXTINF:-1,Baby TV | España
+http://185.189.225.149/BabyTV/index.m3u8
 
 #EXTINF:-1,BBC Drama | Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -152,11 +152,14 @@ http://185.189.225.150:85/LaSexta/index.m3u8
 #EXTINF:-1,LaLiga Inside | Rakuten TV
 https://daiconnect.com/live/hls/tvup/rk-ligainside/90358dc4f9a2bcc58260c53040284584/index.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_did=93f81dba-d137-4fd1-a72b-552704745d80&ads_env=prod&ads_gam_correlator=259980630754705&ads_gdpr_consent=&ads_ifa_type=ppid&ads_market=es&ads_opt_out_flag=0&ads_os_language=&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_rtv_content_id=5966&ads_rtv_content_language=spa&ads_streaming_id=c38268a6-c1a2-4834-8540-4ec3abda11a8&ads_tcs_channel_id=227&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=registered&requestuid=ba6482aa-cfe3-435e-b2d7-977830ae6bb1
 
-#EXTINF:-1,Mega ⚠️ | España
-http://185.189.225.150:85/mega/index.m3u8
+#EXTINF:-1,Mega | España
+http://185.189.225.149/mega/index.m3u8
 
 #EXTINF:-1,MTV ⚠️ | España
 http://185.189.225.150:85/MTV/index.m3u8
+
+#EXTINF:-1,MTVHits | España
+http://185.189.225.157/MTVHits/index.m3u8
 
 #EXTINF:-1,MTV Originals | Pluto TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
@@ -176,11 +179,11 @@ http://185.189.225.150:85/neox/index.m3u8
 #EXTINF:-1,Nickelodeon ⚠️ | España
 http://185.189.225.150:85/nickelodeon/index.m3u8
 
-#EXTINF:-1,Nova ⚠️ | España
-http://185.189.225.150:85/nova/index.m3u8
+#EXTINF:-1,Nova | España
+http://185.189.225.157/nova/index.m3u8
 
-#EXTINF:-1,Paramount ⚠️ | España
-http://185.189.225.150:85/Paramount/index.m3u8
+#EXTINF:-1,Paramount | España
+http://185.189.225.149/paramount/index.m3u8
 
 #EXTINF:-1,Peliculas Top | Rakuten TV
 https://ff335120300e4742a2b135ee9a9e7df8.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8
@@ -264,7 +267,7 @@ http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracespor
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 
 #EXTINF:-1,TV3 | España
-https://directes3-tv-int.3catdirectes.cat/live-content/tvc-hls/master.m3u8
+http://185.189.225.157/tv3/index.m3u8
 
 #EXTINF:-1,TV3 CAT | España
 https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
@@ -280,6 +283,7 @@ https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
 
 
 
