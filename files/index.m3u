@@ -264,10 +264,10 @@ http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracespor
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 
 #EXTINF:-1,TV3 | España
-https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
+https://directes3-tv-int.3catdirectes.cat/live-content/tvc-hls/master.m3u8
 
 #EXTINF:-1,TV3 CAT | España
-https://directes3-tv-int.3catdirectes.cat/live-content/tvc-hls/master.m3u8
+https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
 
 #EXTINF:-1,TVE Int. Europ | España
 https://rtvelivestream.rtve.es/rtvesec/int/tvei_eu_main_dvr.m3u8
@@ -280,6 +280,7 @@ https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
 
 
 
