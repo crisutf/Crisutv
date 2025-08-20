@@ -78,7 +78,7 @@ https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
 http://185.189.225.152/CuatroHD/index.m3u8
 
 #EXTINF:-1,DARK | España
-http://185.189.225.152/dark/index.m3u8
+http://185.189.225.157/dark/index.m3u8
 
 #EXTINF:-1,Dkiss | España
 http://185.189.225.152/dkiss/index.m3u8
@@ -298,3 +298,4 @@ http://185.189.225.152/WarnerTV/index.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
