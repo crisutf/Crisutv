@@ -5,14 +5,14 @@
 https://crisu-tv.pages.dev/media/NewChannel.mp4
 
 # España
-#EXTINF:-1,8madrid TV ⚠️ | España
-http://185.189.225.150:85/8madrid/index.m3u8
+#EXTINF:-1,8madrid TV | España
+http://185.189.225.149/8madrid/index.m3u8
 
 #EXTINF:-1,24h | España
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
-#EXTINF:-1,A3Series ⚠️ | España
-https://atres-live.atresmedia.com/c17446087af23e87e9653ec49166e6fdec8b0712_ES_1755176735_1755205475/hlsts/live/a3series_usp/a3series_usp.isml/playlist.m3u8
+#EXTINF:-1,A3Series | España
+http://185.189.225.149/A3Series/index.m3u8
 
 #EXTINF:-1,Action Movie | Rakuten TV
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
@@ -77,8 +77,14 @@ https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,Cuatro | España
 http://185.189.225.152/CuatroHD/index.m3u8
 
-#EXTINF:-1,Discovery ⚠️ | España
-http://185.189.225.150:85/Discovery/index.m3u8
+#EXTINF:-1,DARK | España
+http://185.189.225.152/dark/index.m3u8
+
+#EXTINF:-1,Dkiss | España
+http://185.189.225.152/dkiss/index.m3u8
+
+#EXTINF:-1,Discovery | España
+http://185.189.225.157/Discovery/index.m3u8
 
 #EXTINF:-1,Disney Channel | Español
 http://181.78.106.127:9000/play/ca053/index.m3u8
@@ -110,14 +116,17 @@ http://185.189.225.157/EuroSport1/index.m3u8
 #EXTINF:-1,EUROSPORT 2| España
 http://185.189.225.157/EuroSport2/index.m3u8
 
-#EXTINF:-1,FDF ⚠️ | España
-http://185.189.225.150:85/fdf/index.m3u8
+#EXTINF:-1,FDF | España
+http://185.189.225.149/fdf/index.m3u8
 
 #EXTINF:-1,FIFA+ Spain | Rakuten TV
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 
 #EXTINF:-1,HBO Plus | Español
 http://181.78.106.127:9000/play/ca070/index.m3u8
+
+#EXTINF:-1,Historia | España
+http://185.189.225.149/historia/index.m3u8
 
 #EXTINF:-1,HIT TV | España
 http://185.189.225.194/HitTV/index.m3u8
@@ -155,8 +164,8 @@ https://daiconnect.com/live/hls/tvup/rk-ligainside/90358dc4f9a2bcc58260c53040284
 #EXTINF:-1,Mega | España
 http://185.189.225.149/mega/index.m3u8
 
-#EXTINF:-1,MTV ⚠️ | España
-http://185.189.225.150:85/MTV/index.m3u8
+#EXTINF:-1,MTV | España
+http://185.189.225.149/mtv/index.m3u8
 
 #EXTINF:-1,MTVHits | España
 http://185.189.225.157/MTVHits/index.m3u8
@@ -164,8 +173,8 @@ http://185.189.225.157/MTVHits/index.m3u8
 #EXTINF:-1,MTV Originals | Pluto TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aadf373bed3000794d1d7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aadf373bed3000794d1d7&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=300&terminate=false&userId=
 
-#EXTINF:-1,National Geographic ⚠️ | España
-http://185.189.225.150:85/NationalGeographic/index.m3u8
+#EXTINF:-1,National Geographic | España
+http://185.189.225.157/NationalGeographic/index.m3u8
 
 #EXTINF:-1,Nature Time | Rakuten TV
 https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
@@ -173,11 +182,11 @@ https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1,Negocios | España
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 
-#EXTINF:-1,Neox ⚠️ | España
-http://185.189.225.150:85/neox/index.m3u8
+#EXTINF:-1,Neox | España
+http://185.189.225.157/neox/index.m3u8
 
-#EXTINF:-1,Nickelodeon ⚠️ | España
-http://185.189.225.150:85/nickelodeon/index.m3u8
+#EXTINF:-1,Nickelodeon | España
+http://185.189.225.157/Nick/index.m3u8
 
 #EXTINF:-1,Nova | España
 http://185.189.225.157/nova/index.m3u8
@@ -239,14 +248,14 @@ https://ztnr.rtve.es/ztnr/16510071.m3u8
 #EXTINF:-1,Sky Sports | España
 http://181.78.106.127:9000/play/ca030/index.m3u8
 
-#EXTINF:-1,Somos ⚠️ | España
-http://185.189.225.150:85/somos/index.m3u8
+#EXTINF:-1,Somos | España
+http://185.189.225.157/somos/index.m3u8
 
-#EXTINF:-1,SYFY ⚠️ | España
-http://185.189.225.150:85/syfy/index.m3u8
+#EXTINF:-1,SYFY | España
+http://185.189.225.152/SYFY/index.m3u8
 
-#EXTINF:-1,TCM ⚠️ | España
-http://185.189.225.150:85/TCM/index.m3u8
+#EXTINF:-1,TCM | España
+http://185.189.225.149/tcm/index.m3u8
 
 #EXTINF:-1,Tdp | España
 https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main_dvr.m3u8
@@ -257,13 +266,16 @@ http://185.189.225.152/TeleCincoHD/index.m3u8
 #EXTINF:-1,TeleMadrid | España
 https://telemadrid-23-secure2.akamaized.net/bitrate_1.m3u8
 
+#EXTINF:-1,TELEHIT | España
+http://185.189.225.152/TELEHIT/index.m3u8
+
 #EXTINF:-1,The Pet Collective | Samsung TV
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1,Trace Sport Stars | Samsung TV
 http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
 
-#EXTINF:-1,TRECE ⚠️ | España
+#EXTINF:-1,TRECE | España
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 
 #EXTINF:-1,TV3 | España
@@ -281,10 +293,8 @@ https://rtvelivestream.rtve.es/rtvesec/int/star_main.m3u8
 #EXTINF:-1,Vevo Pop Spain | Rakuten TV
 https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
 
+#EXTINF:-1,WarnerTV | España
+http://185.189.225.152/WarnerTV/index.m3u8
+
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
-
-
-
-
-
