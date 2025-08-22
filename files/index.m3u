@@ -41,14 +41,14 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0
 #EXTINF:-1,BEIN SPORT EXTRA Ñ | España
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 
-#EXTINF:-1,Boing ⚠️ | España
+#EXTINF:-1,Boing | España
 http://185.189.225.157/BOING/index.m3u8
 
 #EXTINF:-1,BOM | España
 https://tsw.streamingwebtv24.it:1936/inteccdn3/inteccdn3/playlist.m3u8
 
-#EXTINF:-1,Calle 13  ⚠️ | España
-http://185.189.225.150:85/calle13/index.m3u8
+#EXTINF:-1,Calle 13 | España
+http://185.189.225.152/CALLE13/index.m3u8
 
 #EXTINF:-1,Canal 4 | España
 https://limited35.todostreaming.es/live/mitjans-livestream2.m3u8
@@ -65,8 +65,8 @@ https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
 #EXTINF:-1,Comedia | Rakuten TV
 https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
 
-#EXTINF:-1,Comedy Central ⚠️ | España
-http://185.189.225.150:85/comedycentral/index.m3u8
+#EXTINF:-1,Comedy Central | España
+http://185.189.225.152/ComedyCentral/index.m3u8
 
 #EXTINF:-1,Cops en Español | Rakuten TV
 https://rightsboosterltd-cops-1-es.rakuten.wurl.tv/playlist.m3u8
@@ -131,8 +131,8 @@ http://185.189.225.149/historia/index.m3u8
 #EXTINF:-1,HIT TV | España
 http://185.189.225.149/HitTV/index.m3u8
 
-#EXTINF:-1,Iberalia ⚠️ | España
-http://185.189.225.150:85/Iberalia/index.m3u8
+#EXTINF:-1,Iberalia | España
+http://185.189.225.149/iberalia/index.m3u8
 
 #EXTINF:-1,Ideas en 5 minutos | Rakuten TV
 https://soul-5mincraftspa-rakuten.amagi.tv/playlist.m3u8
@@ -298,6 +298,7 @@ http://185.189.225.152/WarnerTV/index.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
 
 
 
