@@ -246,7 +246,9 @@ https://ztnr.rtve.es/ztnr/6909845.m3u8
 https://ztnr.rtve.es/ztnr/16510071.m3u8
 
 #EXTINF:-1,Sky Sports | España
-http://181.78.106.127:9000/play/ca030/index.m3u8
+http://190.92.10.66:4000/play/a001/index.m3u8
+
+##http://181.78.106.127:9000/play/ca030/index.m3u8
 
 #EXTINF:-1,Somos | España
 http://185.189.225.157/somos/index.m3u8
@@ -298,6 +300,7 @@ http://185.189.225.152/WarnerTV/index.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
 
 
 
