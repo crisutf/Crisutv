@@ -420,7 +420,6 @@ function loadTermsPage(container) {
         <ul>
             <li>Los canales funcionen de manera continua o sin interrupciones.</li>
             <li>Los enlaces permanezcan activos o actualizados.</li>
-            <li>El servicio esté libre de errores, virus u otros problemas técnicos.</li>
         </ul>
         <p>Si alguna marca, canal o empresa considera inapropiada la inclusión de su señal, puede solicitar su eliminación y se respetará sin inconvenientes.</p>
     </div>
