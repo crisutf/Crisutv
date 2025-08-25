@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const urlParams = new URLSearchParams(window.location.search);
   const page = urlParams.get('page') || 'home';
 
-  document.querySelectorAll('nav a').forEach(link => link.classList.remove('active'));
+  document.querySelectorAll('nav a, .footer-links a').forEach(link => link.classList.remove('active'));
   const activeLink = document.getElementById(page + '-link');
   if (activeLink) activeLink.classList.add('active');
   else document.getElementById('home-link').classList.add('active');
@@ -22,6 +22,7 @@ function loadPageWithTransition(page, container) {
       case 'compatibility': loadCompatibilityPage(container); break;
       case 'howto': loadHowToPage(container); break;
       case 'download': loadDownloadPage(container); break;
+      case 'terms': loadTermsPage(container); break;
       default: loadHomePage(container); break;
     }
     requestAnimationFrame(() => container.style.opacity = '1');
@@ -29,7 +30,7 @@ function loadPageWithTransition(page, container) {
 }
 
 // Menú dinámico
-document.querySelectorAll('nav a').forEach(link => {
+document.querySelectorAll('nav a, .footer-links a').forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
     const page = e.target.id.replace('-link', '');
@@ -87,7 +88,7 @@ function loadHomePage(container) {
       <p class="action-description">Accede directamente a tu plataforma con un solo clic.</p>
       <div class="info-box">
         <span class="info-icon">ℹ️</span>
-        <p>Si tu mando no es tipo Remote Magic, el vídeo será a pantalla completa. Usa los números del <strong>2 al 89</strong> para cambiar de canal.</p>
+        <p>Si tu mando no es tipo Remote Magic, el vídeo será a pantalla completa. Usa los números del <strong>2 al 99</strong> para cambiar de canal.</p>
       </div>
       <p class="note">Esto no afecta a usuarios de Android TV con la app.</p>
       <a href="/pages/iptv_access.html" class="cta-button"><span class="cta-icon">▶️</span><span class="cta-text">Empezar a ver</span></a>
@@ -138,11 +139,11 @@ ${/* Tu bloque HTML completo de compatibilidad va aquí */''}
                                     </div>
                                     <div class="channel-count">
                                         <i class="fas fa-flag"></i>
-                                        <span>España: 54 canales</span>
+                                        <span>España: 73 canales</span>
                                         </div>
                                         <div class="channel-count">
                                             <i class="fas fa-flag"></i>
-                                            <span>Rakuten TV: 13 canales</span>
+                                            <span>Rakuten TV: 14 canales</span>
                                             </div>
                                             <div class="channel-count">
                                                 <i class="fas fa-flag"></i>
@@ -150,7 +151,7 @@ ${/* Tu bloque HTML completo de compatibilidad va aquí */''}
                                                 </div>
                                                 <div class="channel-count">
                                                     <i class="fas fa-flag"></i>
-                                                    <span>Pluto TV: 8 canales</span>
+                                                    <span>Pluto TV: 13 canales</span>
                                                     </div>
                                                 </div>                                                
                                             </div>
@@ -234,21 +235,16 @@ ${/* Tu bloque HTML completo de compatibilidad va aquí */''}
   <div class="important-notes">
     <h3><i class="fas fa-clipboard-list"></i> Notas importantes</h3>
     <ul>
-      <li><i class="fas fa-check-circle"></i> En Smart TVs con navegador de fábrica, casi todos los canales funcionan, excepto algunos Rakuten TV al abrir URL directa del servidor.</li>
-      <li><i class="fas fa-exclamation-circle"></i> Las limitaciones HTTP afectan solo al navegador web en Smart TVs al abrir ciertos canales desde el servidor.</li>
-      <li><i class="fas fa-mobile-alt"></i> La próxima app nativa eliminará estas restricciones, pero <strong>solo si se usa la app</strong>, no el navegador.</li>
-      <li><i class="fas fa-lock"></i> Canales con <strong>HTTPS</strong> (RTVE, Real Madrid TV, etc.) funcionan en todos los dispositivos, pero son pocos.</li>
+      <li><i class="fas fa-check-circle"></i> La mayoría de canales funcionan correctamente en todos los dispositivos.</li>
+      <li><i class="fas fa-mobile-alt"></i> Para la mejor experiencia, recomendamos usar la aplicación oficial.</li>
+      <li><i class="fas fa-lock"></i> Los canales HTTPS ofrecen mayor compatibilidad.</li>
     </ul>
   </div>
 
   <div class="restrictions-card">
-    <h2><i class="fas fa-shield-alt"></i> Proveedores con restricciones</h2>
+    <h2><i class="fas fa-shield-alt"></i> Soporte técnico</h2>
     <div class="restrictions-content">
-      <p><i class="fas fa-futbol"></i> Algunos proveedores bloquean canales HTTP durante eventos deportivos (no incluye LaLiga).</p>
       <p><i class="fas fa-envelope"></i> Si tienes problemas, escríbeme a <a href="mailto:wtf.crisu@gmail.com">wtf.crisu@gmail.com</a>.</p>
-      <p><i class="fas fa-info-circle"></i> Nota: en Android TV u otros sistemas que no sean Smart TV, canales con URL mixta no funcionan en Chrome sin activar servidor.</p>
-      <p><i class="fas fa-exclamation-triangle"></i> Rakuten TV no funciona en la app con modo servidor.</p>
-      <p><i class="fas fa-tools"></i> Próximamente se hará mantenimiento.</p>
     </div>
   </div>
 `;
@@ -260,23 +256,27 @@ ${/* Tu bloque HTML completo de compatibilidad va aquí */''}
 function loadHowToPage(container) {
   container.innerHTML = `
 ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
-<h1 class="page-title">Cómo funciona Crisutf TV+</h1>
+<h1 class="page-title">Controles Crisutf TV+</h1>
 
                 <div class="instructions-grid">
                     <div class="card device-card">
                         <div class="card-header">
                             <span class="device-icon">📺</span>
-                            <h2>Smart TV</h2>
+                            <h2>Smart TV (Web solo)</h2>
                         </div>
                         <div class="card-content">
                             <div class="shortcut-list">
                                 <div class="shortcut-item">
-                                    <span class="key-combo">0 + 0</span>
+                                    <span class="key-combo">2 veces apretando 1</span>
                                     <span class="key-action">Activar vídeo completo</span>
                                 </div>
                                 <div class="shortcut-item">
                                     <span class="key-combo">OK</span>
                                     <span class="key-action">Pantalla completa (mandos Magic)</span>
+                                </div>
+                                <div class="shortcut-item">
+                                    <span class="key-combo">2-9</span>
+                                    <span class="key-action">Cambio rápido de canal</span>
                                 </div>
                             </div>
                         </div>
@@ -290,7 +290,7 @@ ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
                         <div class="card-content">
                             <div class="shortcut-list">
                                 <div class="shortcut-item">
-                                    <span class="key-combo">F + F</span>
+                                    <span class="key-combo">Apretando F 2 Veces</span>
                                     <span class="key-action">Activar vídeo completo</span>
                                 </div>
                                 <div class="shortcut-item">
@@ -320,50 +320,7 @@ ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
                         </div>
                     </div>
 
-                    <div class="card info-card">
-                        <div class="card-header">
-                            <span class="info-icon">ℹ️</span>
-                            <h2>Sobre los canales</h2>
-                        </div>
-                        <div class="card-content">
-                            <p>Todos los canales provienen de <strong>listas públicas</strong> y funcionan <strong>24/7</strong>. Los canales HTTPS (RTVE, Real Madrid TV) son compatibles con todos los dispositivos.</p>
-                        </div>
-                    </div>
-
-                    <div class="card troubleshoot-card">
-                        <div class="card-header">
-                            <span class="info-icon">🔧</span>
-                            <h2>Solución de problemas</h2>
-                        </div>
-                        <div class="card-content">
-                            <div class="problem-list">
-                                <div class="problem-item">
-                                    <h4>🚫 No reproduce</h4>
-                                    <p>Canal HTTP: Usa Smart TV o la app descargable</p>
-                                </div>
-                                <div class="problem-item">
-                                    <h4>⏳ Buffering</h4>
-                                    <p>Revisa tu conexión o reduce la calidad</p>
-                                </div>
-                                <div class="problem-item">
-                                    <h4>⌛ Tardanza con los canales "Español"</h4>
-                                    <p>Espera un poco porque esos canales tardan en conectar</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card support-card">
-                        <div class="card-header">
-                            <span class="info-icon">📝</span>
-                            <h2>Notas importantes</h2>
-                        </div>
-                        <div class="card-content">
-                            <p>Algunos proveedores pueden bloquear canales HTTP durante eventos deportivos. Para soporte técnico, contacta: <strong>wtf.crisu@gmail.com</strong></p>
-                            <p class="note">En Android TV, usa la app para canales con URL mixta</p>
-                        </div>
-                    </div>
-                </div>
+                   
 `;
 }
 
@@ -392,126 +349,109 @@ function loadDownloadPage(container) {
 // =======================
 function loadUpdatesPage(container) {
   container.innerHTML = `
-${/* Es el mismo contenido de compatibilidad, si quieres lo duplico o personalizo */''}
 <h1 class="page-title">Actualizaciones y Cambios</h1>
 
-                <div class="card">
-
-                    <div class="update-item">
-                        <div class="update-date">03/07/2025</div>
-                        <h3 class="update-title">Mantenimiento y reconstrucción de la base del sitio web</h3>
-                        <p>Del 03/07 a las 18:57 al 10/07 a las 21:00 (hora ES).</p>
+                <div class="card" id="updates-container">
+                    <div class="card-content">
+                        <div class="updates-list">
+                            <!-- Las actualizaciones se cargarán desde el JSON -->
+                        </div>
                     </div>
+                </div>
+`;
 
-                    <div class="update-item">
-                        <div class="update-date">01/07/2025</div>
-                        <h3 class="update-title">Nuevos cales</h3>
-                        <p>AXN, Discovery, Iberalia, MTV, Somos, TCM</p>
-                    </div>
+  // Cargar actualizaciones desde el archivo JSON
+  fetch('assets/data/updates.json')
+    .then(response => response.json())
+    .then(data => {
+      const updatesContainer = document.querySelector('.updates-list');
+      
+      // Limpiar el contenedor
+      updatesContainer.innerHTML = '';
+      
+      // Recorrer las actualizaciones y crear elementos HTML
+      data.updates.forEach(update => {
+        const updateItem = document.createElement('div');
+        updateItem.className = 'update-item';
+        
+        updateItem.innerHTML = `
+          <div class="update-date">${update.date}</div>
+          <h3 class="update-title">${update.title}</h3>
+          <p>${update.description}</p>
+        `;
+        
+        updatesContainer.appendChild(updateItem);
+      });
+    })
+    .catch(error => {
+      console.error('Error al cargar las actualizaciones:', error);
+      document.querySelector('#updates-container').innerHTML = `
+        <div class="card-content">
+          <p>Error al cargar las actualizaciones. Por favor, intenta de nuevo más tarde.</p>
+        </div>
+      `;
+    });
+}
 
-                    <div class="update-item">
-                        <div class="update-date">01/07/2025</div>
-                        <h3 class="update-title">Nuevos cales</h3>
-                        <p>AXN, Discovery, Iberalia, MTV, Somos, TCM</p>
-                    </div>
 
-                    <div class="update-item">
-                        <div class="update-date">30/06/2025</div>
-                        <h3 class="update-title">Mini mantenimiento en las paginas</h3>
-                        <p>La pagina funcionara pero se estara modificando</p>
-                    </div>
+// =======================
+// CARGA: TÉRMINOS Y CONDICIONES
+// =======================
+function loadTermsPage(container) {
+  container.innerHTML = `
+<h1 class="page-title">Términos y Condiciones</h1>
 
-
-                    <div class="update-item">
-                        <div class="update-date">30/06/2025</div>
-                        <h3 class="update-title">Revison para coreccion para la APP de Android TV</h3>
-                        <p>La APP de Android TV esta un poco inestable</p>
-                    </div>
-
-
-                    <div class="update-item">
-                        <div class="update-date">30/06/2025</div>
-                        <h3 class="update-title">Nuevos canales</h3>
-                        <p>Aragón TV, À Punt TV, BBC Drama, BEIN SPORT EXTRA Ñ, Calle 13 Pluto TV (Cine Clasico, MTV Originals, Accion, Cocina, Kids y el Classics y Telenvelas), El País, Esport3, ETB2, Rakuten TV (Euronews), EUROSPORT 1 y 2, HBO Plus, HBO Plus, La Mega Mundial, National Geographic, Negocios, RNE para todos, SKY SPORTS & LaLiga y WWE (Sin sonido)</p>
-                    </div>
-
-<div class="update-item">
-    <div class="update-date">27/06/2025</div>
-    <h3 class="update-title">APP oficial para PC</h3>
-    <p>Lanzada la app para PC. Ya no se necesita Python.</p>
+<div class="card terms-card">
+    <div class="terms-section">
+        <h2>1. Introducción</h2>
+        <p>Bienvenido a Crisutf TV+. Este proyecto comenzó como una iniciativa personal y pública creada por Crisu, con el objetivo de experimentar, aprender y compartir durante el verano. El servicio se ofrece sin fines de lucro y sin intención comercial.</p>
+        <p>Al acceder a Crisutf TV+, aceptas estos términos y condiciones. Si no estás de acuerdo, por favor no utilices el servicio.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>2. Origen de los contenidos</h2>
+        <p>Todos los canales disponibles en Crisutf TV+ provienen de repositorios públicos en GitHub y otras fuentes abiertas de Internet. El creador no es propietario ni responsable del contenido transmitido.</p>
+        <p>Este proyecto demuestra cómo los recursos públicos pueden ser reutilizados de manera creativa, pero no tiene control sobre la estabilidad o legalidad de los canales enlazados.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>3. Descargo de responsabilidad</h2>
+        <p>Crisutf TV+ se ofrece "tal cual" y "según disponibilidad". El creador no garantiza que:</p>
+        <ul>
+            <li>Los canales funcionen de manera continua o sin interrupciones.</li>
+            <li>Los enlaces permanezcan activos o actualizados.</li>
+            <li>El servicio esté libre de errores, virus u otros problemas técnicos.</li>
+        </ul>
+        <p>Si alguna marca, canal o empresa considera inapropiada la inclusión de su señal, puede solicitar su eliminación y se respetará sin inconvenientes.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>4. Seguridad de las aplicaciones</h2>
+        <p>Las versiones de Crisutf TV+ que puedan distribuirse en formato APK, EXE o cualquier otro tipo de archivo ejecutable no contienen virus, spyware ni software malicioso. Son simples empaquetados creados con herramientas comunes como WinRAR para facilitar la instalación.</p>
+        <p>El objetivo es garantizar que los usuarios puedan usar la aplicación sin riesgos ocultos en sus dispositivos.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>5. Limitación de responsabilidad</h2>
+        <p>El creador de Crisutf TV+ no se hace responsable de los contenidos de terceros ni de posibles reclamos legales relacionados con los canales enlazados. Cada usuario es responsable de cómo utiliza el servicio.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>6. Privacidad</h2>
+        <p>Esta aplicación no recopila, almacena ni vende información personal de los usuarios. Todo el contenido se muestra directamente a través de código HTML y recursos públicos.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>7. Modificaciones</h2>
+        <p>Estos términos pueden ser actualizados en cualquier momento sin previo aviso. Al seguir utilizando el servicio, aceptas la versión vigente en ese momento.</p>
+    </div>
+    
+    <div class="terms-section">
+        <h2>8. Ley aplicable</h2>
+        <p>Estos términos se interpretan bajo principios generales de uso de contenidos públicos en Internet. El creador no busca infringir derechos y está dispuesto a colaborar en caso de reclamos legítimos.</p>
+    </div>
 </div>
 
-<div class="update-item">
-    <div class="update-date">26/06/2025</div>
-    <h3 class="update-title">Mantenimiento</h3>
-    <p>Del 26/06 a las 22:00 al 28/06 a las 22:00 (hora ES).</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">22/06/2025</div>
-    <h3 class="update-title">Mantenimiento</h3>
-    <p>Del 22/06 a las 22:41 al 23/06 a las 22:00 (hora ES).</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">22/06/2025</div>
-    <h3 class="update-title">APP para móvil y TV</h3>
-    <p>Lanzada la app para Android, tablet y Smart TV.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">22/06/2025</div>
-    <h3 class="update-title">Canal A3Series</h3>
-    <p>Nuevo canal añadido.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">20/06/2025</div>
-    <h3 class="update-title">Mantenimiento + nuevo diseño</h3>
-    <p>Mantenimiento con cambios en la paleta de colores.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">18/06/2025</div>
-    <h3 class="update-title">Rakuten TV</h3>
-    <p>Añadidos 4 canales nuevos. Total: 12.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">18/06/2025</div>
-    <h3 class="update-title">Mantenimiento técnico</h3>
-    <p>Desde las 00:20 hasta las 16:00 (hora ES).</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">06/06/2025</div>
-    <h3 class="update-title">Nuevos canales</h3>
-    <p>8madrid TV, AMC, BabyTV, FIFA+, HIT TV, y más.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">31/05/2025</div>
-    <h3 class="update-title">Actualización grande</h3>
-    <p>Nuevo diseño e importantes mejoras.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">24/04/2025</div>
-    <h3 class="update-title">Canales rumanos</h3>
-    <p>Añadidos canales de Rumanía. (Se ocultaron por ahora para futuras actualizaciones)</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">17/04/2025</div>
-    <h3 class="update-title">Canales españoles</h3>
-    <p>Se añadieron canales de España.</p>
-</div>
-
-<div class="update-item">
-    <div class="update-date">15/04/2025</div>
-    <h3 class="update-title">Inicio del proyecto</h3>
-    <p>Lanzamiento de Crisutf TV+.</p>
-</div>
 
 </div>
 `;
