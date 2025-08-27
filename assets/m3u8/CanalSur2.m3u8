@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=2200000
+
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/chunklist_b2200000.m3u8

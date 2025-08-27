@@ -1,0 +1,10 @@
+#EXTM3U
+## Created with Golumi Video Platform
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audios",NAME="Castellano",LANGUAGE="spa",CHANNELS="2",DEFAULT=YES,AUTOSELECT=YES
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3012608,AVERAGE-BANDWIDTH=3012608,RESOLUTION=1280x720,CODECS="avc1.640029,mp4a.40.2",AUDIO="audios"
+https://rtvelivestream.rtve.es/eventual/gofast/playm7_main_720.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2025472,AVERAGE-BANDWIDTH=2025472,RESOLUTION=1024x576,CODECS="avc1.640029,mp4a.40.2",AUDIO="audios"
+https://rtvelivestream.rtve.es/eventual/gofast/playm7_main_576.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1155072,AVERAGE-BANDWIDTH=1155072,RESOLUTION=640x360,CODECS="avc1.640029,mp4a.40.2",AUDIO="audios"
+https://rtvelivestream.rtve.es/eventual/gofast/playm7_main_360.m3u8

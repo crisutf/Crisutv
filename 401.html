@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crisutf TV+ - Error 401</title>
     <link rel="icon" type="image/png" href="/media/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pf-dindisplay-pro-black-2" rel="stylesheet">
     <style>
         :root {
-            --primary: #1a73e8;
-            --bg-dark: #0f172a;
-            --text: #ffffff;
-            --error: #9c27b0;
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --primary-dark: #4f46e5;
+            --accent: #ec4899;
+            --accent-light: #f472b6;
+            --bg-dark: #0f0f1a;
+            --text: #f8fafc;
+            --error: #ec4899;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'PF DinDisplay Pro Black', sans-serif;
         }
 
         body {
@@ -97,7 +101,7 @@
             font-size: 2.5rem;
             font-weight: 600;
             margin-bottom: 20px;
-            background: linear-gradient(45deg, #1a73e8, #8ab4f8);
+            background: var(--primary-light);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -147,14 +151,15 @@
             cursor: pointer;
             text-decoration: none;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(26,115,232,0.3);
+            box-shadow: 0 4px 15px rgba(99,102,241,0.3);
             display: inline-block;
             position: relative;
         }
 
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(26,115,232,0.4);
+            box-shadow: 0 6px 20px rgba(99,102,241,0.4);
+            background: var(--primary-dark);
         }
 
         .key-particles {
@@ -202,7 +207,7 @@
         <h1 class="title">Crisutf TV+</h1>
         <div class="error-code">401</div>
         <p class="message">¡Necesitas iniciar sesión para ver este contenido!</p>
-        <a href="/index.html" class="btn">Iniciar sesión</a>
+        <a href="/index.html" class="btn">Volver al inicio</a>
     </div>
 </body>
 </html>

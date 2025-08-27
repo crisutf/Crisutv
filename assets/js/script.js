@@ -65,7 +65,7 @@ function loadHomePage(container) {
 <div class="welcome-grid">
   <div class="card feature-card">
     <div class="card-header">
-      <span class="feature-icon">📺</span>
+      <span class="feature-icon"><img src="/media/icons/tv.svg" alt="TV" class="svg-icon"/></span>
       <h2>¿Qué es Crisutf TV+?</h2>
     </div>
     <div class="card-content">
@@ -73,38 +73,38 @@ function loadHomePage(container) {
         <p class="main-description"><strong>Crisutf TV+</strong> es una plataforma IPTV con canales de <strong>listas públicas</strong>, sin depender de señales de otros proveedores.</p>
       </div>
       <div class="feature-list">
-        <div class="feature-item"><span class="check-icon">✅</span><span>Compatible con <strong>Smart TV</strong>, <strong>móvil</strong> y <strong>PC</strong></span></div>
-        <div class="feature-item"><span class="check-icon">✅</span><span>Sin bloqueos de <strong>LaLiga</strong></span></div>
-        <div class="feature-item"><span class="check-icon">✅</span><span>Fácil, rápido y sin complicaciones</span></div>
+        <div class="feature-item"><span class="check-icon"><img src="/media/icons/check.svg" alt="Check" class="svg-icon-small"/></span><span>Compatible con <strong>Smart TV</strong>, <strong>móvil</strong> y <strong>PC</strong></span></div>
+        <div class="feature-item"><span class="check-icon"><img src="/media/icons/check.svg" alt="Check" class="svg-icon-small"/></span><span>Sin bloqueos de <strong>LaLiga</strong></span></div>
+        <div class="feature-item"><span class="check-icon"><img src="/media/icons/check.svg" alt="Check" class="svg-icon-small"/></span><span>Fácil, rápido y sin complicaciones</span></div>
       </div>
     </div>
   </div>
   <div class="card action-card">
     <div class="card-header">
-      <span class="feature-icon">🎬</span>
+      <span class="feature-icon"><img src="/media/icons/movie.svg" alt="Movie" class="svg-icon"/></span>
       <h2>¡Empieza a ver!</h2>
     </div>
     <div class="card-content">
       <p class="action-description">Accede directamente a tu plataforma con un solo clic.</p>
       <div class="info-box">
-        <span class="info-icon">ℹ️</span>
+        <span class="info-icon"><img src="/media/icons/info.svg" alt="Info" class="svg-icon-small"/></span>
         <p>Si tu mando no es tipo Remote Magic, el vídeo será a pantalla completa. Usa los números del <strong>2 al 99</strong> para cambiar de canal.</p>
       </div>
       <p class="note">Esto no afecta a usuarios de Android TV con la app.</p>
-      <a href="/pages/iptv_access.html" class="cta-button"><span class="cta-icon">▶️</span><span class="cta-text">Empezar a ver</span></a>
+      <a href="/pages/access.html" class="cta-button"><span class="cta-icon"><img src="/media/icons/play.svg" alt="Play" class="svg-icon-small"/></span><span class="cta-text">Empezar a ver</span></a>
     </div>
   </div>
   <div class="card features-card">
     <div class="card-header">
-      <span class="feature-icon">⭐</span>
+      <span class="feature-icon"><img src="/media/icons/star.svg" alt="Star" class="svg-icon"/></span>
       <h2>Características principales</h2>
     </div>
     <div class="card-content">
       <div class="features-grid">
-        <div class="feature-box"><span class="feature-box-icon">🇪🇸</span><span>Canales públicos de España</span></div>
-        <div class="feature-box"><span class="feature-box-icon">📱</span><span>Interfaz adaptativa</span></div>
-        <div class="feature-box"><span class="feature-box-icon">🔄</span><span>Actualizaciones frecuentes</span></div>
-        <div class="feature-box"><span class="feature-box-icon">📲</span><span>Apps para todos los dispositivos</span></div>
+        <div class="feature-box"><span class="feature-box-icon"><img src="/media/icons/spain-flag.svg" alt="Spain Flag" class="svg-icon-small"/></span><span>Canales públicos de España</span></div>
+        <div class="feature-box"><span class="feature-box-icon"><img src="/media/icons/mobile.svg" alt="Mobile" class="svg-icon-small"/></span><span>Interfaz adaptativa</span></div>
+        <div class="feature-box"><span class="feature-box-icon"><img src="/media/icons/refresh.svg" alt="Refresh" class="svg-icon-small"/></span><span>Actualizaciones frecuentes</span></div>
+        <div class="feature-box"><span class="feature-box-icon"><img src="/media/icons/app.svg" alt="App" class="svg-icon-small"/></span><span>Apps para todos los dispositivos</span></div>
       </div>
     </div>
   </div>
@@ -256,12 +256,12 @@ ${/* Tu bloque HTML completo de compatibilidad va aquí */''}
 function loadHowToPage(container) {
   container.innerHTML = `
 ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
-<h1 class="page-title">Controles Crisutf TV+</h1>
+  <h1 class="page-title">Controles Crisutf TV+</h1>
 
                 <div class="instructions-grid">
                     <div class="card device-card">
                         <div class="card-header">
-                            <span class="device-icon">📺</span>
+                            <span class="device-icon"><img src="/media/icons/tv.svg" alt="TV" class="svg-icon"/></span>
                             <h2>Smart TV (Web solo)</h2>
                         </div>
                         <div class="card-content">
@@ -284,7 +284,7 @@ ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
 
                     <div class="card device-card">
                         <div class="card-header">
-                            <span class="device-icon">💻</span>
+                            <span class="device-icon"><img src="/media/icons/computer.svg" alt="Computer" class="svg-icon"/></span>
                             <h2>PC / Laptop</h2>
                         </div>
                         <div class="card-content">
@@ -303,7 +303,7 @@ ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
 
                     <div class="card device-card">
                         <div class="card-header">
-                            <span class="device-icon">📱</span>
+                            <span class="device-icon"><img src="/media/icons/mobile.svg" alt="Mobile" class="svg-icon"/></span>
                             <h2>Móvil / Tablet</h2>
                         </div>
                         <div class="card-content">
@@ -313,7 +313,7 @@ ${/* Aquí va tu contenido exacto de la sección Cómo funciona */''}
                                     <span class="key-action">Pantalla completa</span>
                                 </div>
                                 <div class="shortcut-item">
-                                    <span class="key-combo">⬅️ Dar atras</span>
+                                    <span class="key-combo"><img src="/media/icons/arrow-left.svg" alt="Arrow Left" class="svg-icon-small"/> Dar atras</span>
                                     <span class="key-action">Salir de pantalla completa</span>
                                 </div>
                             </div>
@@ -332,13 +332,13 @@ function loadDownloadPage(container) {
 <h1 class="page-title">Descargar Crisutf TV+</h1>
 <div class="card">
   <div style="margin-top: 30px;">
-    <h1>📥 Descargar App</h1>
+    <h1><img src="/media/icons/download.svg" alt="Download" class="svg-icon"/> Descargar App</h1>
     <p>Ya está disponible la app para TV (Android TV Sys), Móvil/Tablet, PC y en modo servidor local. Selecciona tu versión preferida:</p>
     <div class="download-grid">
-      <a href="download/Crisutf.TV-Mobile.apk" class="download-btn"><span class="download-icon">📱</span><span class="download-text"><strong>Android (Móvil)</strong><small>Para teléfonos y tablets</small></span></a>
-      <a href="download/Crisutf.TV-TV.apk" class="download-btn"><span class="download-icon">📺</span><span class="download-text"><strong>Android TV</strong><small>Para Smart TV y TV Box</small></span></a>
-      <a href="https://drive.google.com/file/d/15DtlCrPpfsVACk9GyDZalDcyZ0W4QIp3/view" class="download-btn"><span class="download-icon">💻</span><span class="download-text"><strong>Windows (PC)</strong><small>Para computadoras</small></span></a>
-      <a href="download/Crisutf.TV-ServerLocal.exe" class="download-btn"><span class="download-icon">🖥️</span><span class="download-text"><strong>Modo Servidor <h5>(Fuera de soporte)</h5></strong><small>Para uso en red local</small></span></a>
+      <a href="download/Crisutf.TV-Mobile.apk" class="download-btn"><span class="download-icon"><img src="/media/icons/mobile.svg" alt="Mobile" class="svg-icon-small"/></span><span class="download-text"><strong>Android (Móvil)</strong><small>Para teléfonos y tablets</small></span></a>
+      <a href="download/Crisutf.TV-TV.apk" class="download-btn"><span class="download-icon"><img src="/media/icons/tv.svg" alt="TV" class="svg-icon-small"/></span><span class="download-text"><strong>Android TV</strong><small>Para Smart TV y TV Box</small></span></a>
+      <a href="https://drive.google.com/file/d/15DtlCrPpfsVACk9GyDZalDcyZ0W4QIp3/view" class="download-btn"><span class="download-icon"><img src="/media/icons/computer.svg" alt="Computer" class="svg-icon-small"/></span><span class="download-text"><strong>Windows (PC)</strong><small>Para computadoras</small></span></a>
+      <a href="download/Crisutf.TV-ServerLocal.exe" class="download-btn"><span class="download-icon"><img src="/media/icons/server.svg" alt="Server" class="svg-icon-small"/></span><span class="download-text"><strong>Modo Servidor <h5>(Fuera de soporte)</h5></strong><small>Para uso en red local</small></span></a>
     </div>
   </div>
 </div>`;

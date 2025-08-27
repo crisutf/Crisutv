@@ -2,24 +2,27 @@
    VARIABLES GLOBALES
 ====================== */
         :root {
-            --primary: #2563eb;
-            --primary-light: #60a5fa;
-            --primary-dark: #1e40af;
-            --bg-dark: #0f172a;
-            --bg-card: rgba(15, 23, 42, 0.6);
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --primary-dark: #4f46e5;
+            --accent: #ec4899;
+            --accent-light: #f472b6;
+            --bg-dark: #0f0f1a;
+            --bg-sidebar: #1a1a2e;
             --text: #f8fafc;
-            --text-secondary: #cbd5e1;
-            --card-bg: rgba(255, 255, 255, 0.03);
-            --card-hover: rgba(255, 255, 255, 0.08);
+            --text-secondary: #a5b4fc;
+            --border: #2d2d42;
+            --card-bg: rgba(30, 30, 60, 0.5);
+            --card-hover: rgba(40, 40, 80, 0.8);
             --danger: #ef4444;
             --success: #22c55e;
             --error: #ef4444;
             --warning: #f59e0b;
-            --border-color: rgba(255, 255, 255, 0.08);
-            --shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            --gradient-start: #2563eb;
-            --gradient-end: #60a5fa;
-            --header-bg: rgba(15, 23, 42, 0.85);
+            --border-color: var(--border);
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            --gradient-1: linear-gradient(135deg, var(--primary-light), var(--accent-light));
+            --gradient-2: linear-gradient(135deg, var(--primary), var(--accent));
+            --header-bg: rgba(15, 15, 30, 0.85);
         }
 
 /* ======================
@@ -29,7 +32,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'PF DinDisplay Pro Black', sans-serif;;
+                                                
         }
 
         body {
@@ -39,6 +43,8 @@
             display: flex;
             flex-direction: column;
             line-height: 1.6;
+            background-image: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%), 
+                           radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.1) 0%, transparent 40%);
         }
 
 /* ======================
@@ -84,10 +90,11 @@ header {
         .site-title {
             font-size: 1.75rem;
             font-weight: 600;
-            background: linear-gradient(45deg, var(--gradient-start), var(--gradient-end));
+            background: var(--gradient-1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             letter-spacing: -0.5px;
+            text-shadow: 0 2px 10px rgba(99, 102, 241, 0.3);
         }
 
         nav ul {
@@ -194,7 +201,7 @@ header {
             left: 50%;
             width: 60px;
             height: 3px;
-            background: linear-gradient(to right, var(--primary), var(--primary-light));
+            background: var(--gradient-2);
             transform: translateX(-50%);
             border-radius: 3px;
         }

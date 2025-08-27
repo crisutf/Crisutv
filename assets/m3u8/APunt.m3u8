@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=2654208,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=1280x720
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/profile_0/chunklist_dvr.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1937408,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=960x540
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/profile_1/chunklist_dvr.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1118208,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/profile_2/chunklist_dvr.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=657408,CODECS="avc1.4d4015,mp4a.40.2",RESOLUTION=480x270
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/profile_3/chunklist_dvr.m3u8
