@@ -2,9 +2,8 @@
 
 # 📺 Crisutf TV+
 
-[![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)](https://crisuuu.pages.dev)
-[![Plataformas](https://img.shields.io/badge/Plataformas-TV%20|%20PC%20|%20Mobile-blue?style=for-the-badge)](https://crisuuu.pages.dev/devices)
-[![Canales](https://img.shields.io/badge/Canales-Españoles-red?style=for-the-badge&logo=tv&logoColor=white)](https://crisuuu.pages.dev/files/v2.0/index.m3u)
+[![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)](https://crisu-tv.pages.dev)
+[![Plataformas](https://img.shields.io/badge/Plataformas-TV%20|%20PC%20|%20Mobile-blue?style=for-the-badge)](https://crisu-tv.pages.dev/devices)
 
 <img src="/media/logo.png" alt="Logo Crisutf TV+" width="200"/>
 
