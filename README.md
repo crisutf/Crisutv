@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📺 Crisutf TV+ | Proyecto IPTV
+# 📺 Crisutf TV+
 
 [![Estado](https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge)](https://crisuuu.pages.dev)
 [![Plataformas](https://img.shields.io/badge/Plataformas-TV%20|%20PC%20|%20Mobile-blue?style=for-the-badge)](https://crisuuu.pages.dev/devices)
