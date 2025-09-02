@@ -71,9 +71,9 @@
         }
 
         .app-title {
-            position: absolute;
-            top: 20px;
-            right: 20px;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
             color: var(--primary-light);
             z-index: 10;
             background: var(--gradient-1);
@@ -81,6 +81,13 @@
             border-radius: 8px;            
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-size: 1.5em;
+        }
+
+        @media (min-width: 1920px) {
+            .app-title {
+                font-size: 2em;
+            }
         }
 
         .channel-indicator {
@@ -120,14 +127,6 @@
         .channel-indicator.show {
             display: block;
             opacity: 1;
-        }
-
-        /* Eliminamos la animación de desvanecimiento ya que ahora queremos que permanezca visible */
-
-        @media (min-width: 1920px) {
-            .app-title {
-                font-size: 2em;
-            }
         }
     </style>
 </head>
