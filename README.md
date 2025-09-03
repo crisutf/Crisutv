@@ -71,7 +71,6 @@ El usuario es responsable del uso que haga de esta aplicación conforme a las le
 - [ ] Categorización de canales por temática
 - [ ] Función de favoritos personalizable
 - [ ] Mejoras en la interfaz de usuario
-- [ ] Soporte para más plataformas
 
 ---
 
