@@ -1,5 +1,6 @@
 #EXTM3U
 
 # Crisutf
-#EXTINF:-1,Mantenimiento | Crisutf
+#EXTINF:-1 group-title="Crisutf",Mantenimiento
 https://crisu-tv.pages.dev/media/mantenimiento.mp4
+
