@@ -34,7 +34,6 @@ Este proyecto nació como un **pasatiempo personal** y ha evolucionado hasta con
 - [Simbamix España TV](https://github.com/simbamix/simbamix/blob/4a734ed3aff129511c23f8f8c4f11b4675f1d352/Espa%C3%B1a%20Tv) - Fuente adicional de canales
 - [IPTV Web España](https://iptv-web.app/ES/) - Referencia para la implementación web
 
-La interfaz web y las aplicaciones fueron desarrolladas utilizando **Trae.ai** <img src="https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/footer.427b48a0.png" alt="Trae.ai Logo" width="20"/>
 
 ---
 
