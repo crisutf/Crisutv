@@ -1,6 +1,11 @@
 {
   "updates": [
     {
+      "date": "10/09/2025",
+      "title": "Actualización de los canales",
+      "description": "Actualmente, los canales proporcionados por Pluto TV presentan problemas de compatibilidad con nuestra aplicación y serán retirados próximamente."
+    },
+    {
       "date": "27/08/2025",
       "title": "Actualización de los colores y diseños",
       "description": "La web y pagina han recibido una actualización de los colores y diseños en la web y en la app."

@@ -1,0 +1,200 @@
+#EXTM3U
+#EXT-X-SESSION-DATA:DATA-ID="XC_VM.1_2_6"
+#EXTINF:-1 tvg-id="" tvg-name="Test" tvg-logo="https://crisu-tv.pages.dev/media/logo.png" group-title="Crisutf",Test
+http://192.168.1.202:25461/crisu/crisu/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="8madrid TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/8madrid.png" group-title="Cine y Series",8madrid TV | España
+http://192.168.1.202:25461/crisu/crisu/2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="24h | España" tvg-logo="https://crisu-tv.pages.dev/logos/24_Horas.png" group-title="Noticias",24h | España
+http://192.168.1.202:25461/crisu/crisu/3.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="A3Series | España" tvg-logo="https://crisu-tv.pages.dev/logos/Atreseries.png" group-title="Cine y Series",A3Series | España
+http://192.168.1.202:25461/crisu/crisu/4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Action Movie | Rakuten TV" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/6b4cf5b7-bb4d-439a-9779-f83fd1bde012-width200-quality90.png" group-title="Rakuten TV",Action Movie | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/5.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AMC ⚠️ | España" tvg-logo="https://crisu-tv.pages.dev/logos/AMC.png" group-title="Cine y Series",AMC ⚠️ | España
+http://192.168.1.202:25461/crisu/crisu/6.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 | España" tvg-logo="https://crisu-tv.pages.dev/logos/Antena_3.png" group-title="Generalistas",Antena 3 | España
+http://192.168.1.202:25461/crisu/crisu/7.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="À Punt TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/A_Punt.png" group-title="Autonómicos y locales",À Punt TV | España
+http://192.168.1.202:25461/crisu/crisu/8.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Aragón TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/Aragon_TV_Int.png" group-title="Autonómicos y locales",Aragón TV | España
+http://192.168.1.202:25461/crisu/crisu/9.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AXN | España" tvg-logo="https://crisu-tv.pages.dev/logos/AXN.png" group-title="Cine y Series",AXN | España
+http://192.168.1.202:25461/crisu/crisu/10.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Baby TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/Baby_TV.png" group-title="Infantil",Baby TV | España
+http://192.168.1.202:25461/crisu/crisu/11.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BBC Drama | Pluto TV" tvg-logo="https://images.pluto.tv/channels/60dafb9a0df1ba000758d37b/thumbnail.jpg" group-title="Pluto TV",BBC Drama | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/12.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT EXTRA Ñ | España" tvg-logo="https://www.beinsportsxtra.com/apple-touch-icon.png" group-title="Deportes",BEIN SPORT EXTRA Ñ | España
+http://192.168.1.202:25461/crisu/crisu/13.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Boing | España" tvg-logo="https://crisu-tv.pages.dev/logos/Boing.png" group-title="Infantil",Boing | España
+http://192.168.1.202:25461/crisu/crisu/14.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BOM | España" tvg-logo="https://crisu-tv.pages.dev/logos/BOM_CINE.png" group-title="Cine y Series",BOM | España
+http://192.168.1.202:25461/crisu/crisu/15.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Calle 13 | España" tvg-logo="https://crisu-tv.pages.dev/logos/Calle_13.png" group-title="Cine y Series",Calle 13 | España
+http://192.168.1.202:25461/crisu/crisu/16.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Canal 4 ⚠️ | España" tvg-logo="https://crisu-tv.pages.dev/logos/4logo.png" group-title="Autonómicos y locales",Canal 4 ⚠️ | España
+http://192.168.1.202:25461/crisu/crisu/17.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Canal Sur 2 | España" tvg-logo="https://crisu-tv.pages.dev/logos/Canal_Sur_Andalucia.png" group-title="Autonómicos y locales",Canal Sur 2 | España
+http://192.168.1.202:25461/crisu/crisu/18.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cine Clasico | Pluto TV" tvg-logo="https://images.pluto.tv/channels/61373bb45168fe000773eecd/thumbnail.jpg" group-title="Pluto TV",Cine Clasico | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/19.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Clan | España" tvg-logo="https://crisu-tv.pages.dev/logos/Clan_TVE.png" group-title="Infantil",Clan | España
+http://192.168.1.202:25461/crisu/crisu/20.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Comedia | Rakuten TV" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork-negative/14c7b74d-cd73-4791-98f2-f6e097cce068-width200-quality90.png" group-title="Rakuten TV",Comedia | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/21.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Comedy Central | España" tvg-logo="https://crisu-tv.pages.dev/logos/Comedy_Central.png" group-title="Entretenimiento",Comedy Central | España
+http://192.168.1.202:25461/crisu/crisu/22.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cops en Español | Rakuten TV" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/558eb431-94a8-46f6-a518-f51ef04a257b-width200-quality90.png" group-title="Rakuten TV",Cops en Español | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/23.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Crímenes Reales | Rakuten TV" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/21253b5f-aed5-4d4c-ac02-c8a9a83936d0-width200-quality90.png" group-title="Rakuten TV",Crímenes Reales | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/24.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro | España" tvg-logo="https://crisu-tv.pages.dev/logos/Cuatro.png" group-title="Generalistas",Cuatro | España
+http://192.168.1.202:25461/crisu/crisu/25.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DARK | España" tvg-logo="https://crisu-tv.pages.dev/logos/DARK.png" group-title="Cine y Series",DARK | España
+http://192.168.1.202:25461/crisu/crisu/26.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Dkiss | España" tvg-logo="https://crisu-tv.pages.dev/logos/DKISS.png" group-title="Entretenimiento",Dkiss | España
+http://192.168.1.202:25461/crisu/crisu/27.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Discovery | España" tvg-logo="https://crisu-tv.pages.dev/logos/Discovery.png" group-title="Documentales",Discovery | España
+http://192.168.1.202:25461/crisu/crisu/28.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel | Español" tvg-logo="https://crisu-tv.pages.dev/logos/Disney_Channel.png" group-title="Infantil",Disney Channel | Español
+http://192.168.1.202:25461/crisu/crisu/29.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="El País | Rakuten TV" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/c23167f2-637a-498a-9452-497ec97f8e96-width200-quality90.png" group-title="Rakuten TV",El País | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/30.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="El Toro TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/El_Toro_TV.png" group-title="Noticias",El Toro TV | España
+http://192.168.1.202:25461/crisu/crisu/31.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Esport3 | España" tvg-logo="https://crisu-tv.pages.dev/logos/Esport3.svg.png" group-title="Deportes",Esport3 | España
+http://192.168.1.202:25461/crisu/crisu/32.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Estilo y Vida | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/4d1281cf-8f8d-4197-9420-6ac85162e143-width200-quality90.png" group-title="Rakuten TV",Estilo y Vida | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/33.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ETB1 | España" tvg-logo="https://crisu-tv.pages.dev/logos/etb1-es.png" group-title="Autonómicos y locales",ETB1 | España
+http://192.168.1.202:25461/crisu/crisu/34.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ETB2 | España" tvg-logo="https://crisu-tv.pages.dev/logos/etb2-es.png" group-title="Autonómicos y locales",ETB2 | España
+http://192.168.1.202:25461/crisu/crisu/35.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Euronews | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/8067f1d8-f28b-4ed2-bfb5-af8181cc34e7-width200-quality90.png" group-title="Rakuten TV",Euronews | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/36.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1| España" tvg-logo="https://crisu-tv.pages.dev/logos/Eurosport_1.png" group-title="Deportes",EUROSPORT 1| España
+http://192.168.1.202:25461/crisu/crisu/37.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 | España" tvg-logo="https://crisu-tv.pages.dev/logos/Eurosport_2.png" group-title="Deportes",EUROSPORT 2 | España
+http://192.168.1.202:25461/crisu/crisu/38.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="FDF | España" tvg-logo="https://crisu-tv.pages.dev/logos/Factoria_de_Ficcion.png" group-title="Cine y Series",FDF | España
+http://192.168.1.202:25461/crisu/crisu/39.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="FIFA+ Spain | Rakuten TV" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork-negative/e2bc4647-5158-44b1-a14e-6b541ed03997-width200-quality90.png" group-title="Rakuten TV",FIFA+ Spain | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/40.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="HBO Plus | Español" tvg-logo="https://i0.wp.com/www.vectorizando.com/wp-content/uploads/2021/04/hbo-plus-8b242e53.png" group-title="Cine y Series",HBO Plus | Español
+http://192.168.1.202:25461/crisu/crisu/41.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Historia | España" tvg-logo="https://crisu-tv.pages.dev/logos/Historia.png" group-title="Documentales",Historia | España
+http://192.168.1.202:25461/crisu/crisu/42.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="HIT TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/hittv.png" group-title="Música",HIT TV | España
+http://192.168.1.202:25461/crisu/crisu/43.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia | España" tvg-logo="https://crisu-tv.pages.dev/logos/Iberalia_TV.png" group-title="Deportes",Iberalia | España
+http://192.168.1.202:25461/crisu/crisu/44.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ideas en 5 minutos | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/ff8dc26a-d037-46f1-827b-2dc2bd3f90d6-width200-quality90.png" group-title="Rakuten TV",Ideas en 5 minutos | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/45.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kanal D Drama | Rakuten TV" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/73859d3a-67b1-44b3-b3fc-544f215fe78a-width200-quality90.png" group-title="Rakuten TV",Kanal D Drama | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/46.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="La 1 | España" tvg-logo="https://crisu-tv.pages.dev/logos/LA_1.png" group-title="Generalistas",La 1 | España
+http://192.168.1.202:25461/crisu/crisu/47.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="La 2 | España" tvg-logo="https://crisu-tv.pages.dev/logos/LA_2.png" group-title="Generalistas",La 2 | España
+http://192.168.1.202:25461/crisu/crisu/48.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="La 8 Mediterráneo ⚠️ | España" tvg-logo="" group-title="Autonómicos y locales",La 8 Mediterráneo ⚠️ | España
+http://192.168.1.202:25461/crisu/crisu/49.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="La Mega Mundial | España" tvg-logo="" group-title="Música",La Mega Mundial | España
+http://192.168.1.202:25461/crisu/crisu/50.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="LaOtra | España" tvg-logo="https://crisu-tv.pages.dev/logos/LaOtra.png" group-title="Autonómicos y locales",LaOtra | España
+http://192.168.1.202:25461/crisu/crisu/51.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="La Sexta ⚠️ | España" tvg-logo="https://crisu-tv.pages.dev/logos/La_Sexta.png" group-title="Generalistas",La Sexta ⚠️ | España
+http://192.168.1.202:25461/crisu/crisu/52.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="LaLiga Inside | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/a24ba2ed-858f-4a97-bdb6-b951482cbe49-width200-quality90.png" group-title="Rakuten TV",LaLiga Inside | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/53.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Mega | España" tvg-logo="https://crisu-tv.pages.dev/logos/Mega.png" group-title="Entretenimiento",Mega | España
+http://192.168.1.202:25461/crisu/crisu/54.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV | España" tvg-logo="https://crisu-tv.pages.dev/logos/MTV.png" group-title="Entretenimiento",MTV | España
+http://192.168.1.202:25461/crisu/crisu/55.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTVHits | España" tvg-logo="https://crisu-tv.pages.dev/logos/MTVHits.png" group-title="Música",MTVHits | España
+http://192.168.1.202:25461/crisu/crisu/56.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV Originals | Pluto TV" tvg-logo="https://images.pluto.tv/channels/5f1aadf373bed3000794d1d7/thumbnail.jpg" group-title="Pluto TV",MTV Originals | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/57.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="National Geographic | España" tvg-logo="https://crisu-tv.pages.dev/logos/National_Geographic.png" group-title="Documentales",National Geographic | España
+http://192.168.1.202:25461/crisu/crisu/58.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nature Time | Rakuten TV" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/3151e8f7-3f72-4b92-aae8-9af17d08a670-width200-quality90.png" group-title="Rakuten TV",Nature Time | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/59.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Negocios | España" tvg-logo="https://crisu-tv.pages.dev/logos/Negocios_TV.png" group-title="Noticias",Negocios | España
+http://192.168.1.202:25461/crisu/crisu/60.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Neox | España" tvg-logo="https://crisu-tv.pages.dev/logos/Neox.png" group-title="Cine y Series",Neox | España
+http://192.168.1.202:25461/crisu/crisu/61.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon | España" tvg-logo="https://crisu-tv.pages.dev/logos/Nickelodeon.png" group-title="Infantil",Nickelodeon | España
+http://192.168.1.202:25461/crisu/crisu/62.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nova | España" tvg-logo="https://crisu-tv.pages.dev/logos/Nova.png" group-title="Entretenimiento",Nova | España
+http://192.168.1.202:25461/crisu/crisu/63.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Paramount | España" tvg-logo="https://crisu-tv.pages.dev/logos/Paramount_Network.png" group-title="Cine y Series",Paramount | España
+http://192.168.1.202:25461/crisu/crisu/64.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Peliculas Top | Rakuten TV" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/82ae4be3-2514-4733-9f9d-89545d4e2ef4-width200-quality90.png" group-title="Rakuten TV",Peliculas Top | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/65.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="People are Awesome | Samsung TV" tvg-logo="https://crisu-tv.pages.dev/logos/PeopleAreAwesome.jpg" group-title="Samsung TV",People are Awesome | Samsung TV
+http://192.168.1.202:25461/crisu/crisu/66.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Acción | Pluto TV" tvg-logo="https://images.pluto.tv/channels/5f1ac2591dd8880007bb7d6d/thumbnail.jpg" group-title="Pluto TV",Pluto Acción | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/67.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Cocina | Pluto TV" tvg-logo="https://images.pluto.tv/channels/5f1acdaa8ba90f0007d5e760/thumbnail.jpg" group-title="Pluto TV",Pluto Cocina | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/68.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Kids Classics | Pluto TV" tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/thumbnail_1750147033576.jpg" group-title="Pluto TV",Pluto Kids Classics | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/69.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Kids | Pluto TV" tvg-logo="https://images.pluto.tv/channels/5f1aab1d29b39600073e243f/thumbnail_1755854217923.jpg" group-title="Pluto TV",Pluto Kids | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/70.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Pluto Telenovelas | Pluto TV" tvg-logo="https://images.pluto.tv/channels/60b4c06717da110007ee1af6/thumbnail.jpg" group-title="Pluto TV",Pluto Telenovelas | Pluto TV
+http://192.168.1.202:25461/crisu/crisu/71.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rakuten Viki | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/b8d55bfa-b593-4635-8f70-a6257f416db2-width200-quality90.png" group-title="Rakuten TV",Rakuten Viki | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/72.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RealMadrid TV | España" tvg-logo="https://crisu-tv.pages.dev/logos/Real_Madrid_TV.png" group-title="Deportes",RealMadrid TV | España
+http://192.168.1.202:25461/crisu/crisu/73.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RNE para todos | España" tvg-logo="https://crisu-tv.pages.dev/logos/RNE.png" group-title="RTVE Play",RNE para todos | España
+http://192.168.1.202:25461/crisu/crisu/74.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE Cuéntame | España" tvg-logo="" group-title="RTVE Play",RTVE Cuéntame | España
+http://192.168.1.202:25461/crisu/crisu/75.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE La 2 Conciertos Radio 3 | España" tvg-logo="https://crisu-tv.pages.dev/logos/LA_2.png" group-title="RTVE Play",RTVE La 2 Conciertos Radio 3 | España
+http://192.168.1.202:25461/crisu/crisu/76.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE La promesa | España" tvg-logo="" group-title="RTVE Play",RTVE La promesa | España
+http://192.168.1.202:25461/crisu/crisu/77.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE La Revuelta | España" tvg-logo="" group-title="RTVE Play",RTVE La Revuelta | España
+http://192.168.1.202:25461/crisu/crisu/78.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE Saber y ganar | España" tvg-logo="" group-title="RTVE Play",RTVE Saber y ganar | España
+http://192.168.1.202:25461/crisu/crisu/79.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE Somos Cine | España" tvg-logo="" group-title="RTVE Play",RTVE Somos Cine | España
+http://192.168.1.202:25461/crisu/crisu/80.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTVE Talent | España" tvg-logo="" group-title="RTVE Play",RTVE Talent | España
+http://192.168.1.202:25461/crisu/crisu/81.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports | España" tvg-logo="https://crisu-tv.pages.dev/logos/SkySports_Laliga.jpg" group-title="Deportes",Sky Sports | España
+http://192.168.1.202:25461/crisu/crisu/82.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Somos | España" tvg-logo="https://crisu-tv.pages.dev/logos/Somos.png" group-title="Cine y Series",Somos | España
+http://192.168.1.202:25461/crisu/crisu/83.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SYFY | España" tvg-logo="https://crisu-tv.pages.dev/logos/SYFY.png" group-title="Cine y Series",SYFY | España
+http://192.168.1.202:25461/crisu/crisu/84.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TCM | España" tvg-logo="https://crisu-tv.pages.dev/logos/tcm.png" group-title="Cine y Series",TCM | España
+http://192.168.1.202:25461/crisu/crisu/85.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Teledeporte | España" tvg-logo="https://crisu-tv.pages.dev/logos/Teledeporte.png" group-title="Deportes",Teledeporte | España
+http://192.168.1.202:25461/crisu/crisu/86.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco | España" tvg-logo="https://crisu-tv.pages.dev/logos/Telecinco.png" group-title="Generalistas",Telecinco | España
+http://192.168.1.202:25461/crisu/crisu/87.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TeleMadrid | España" tvg-logo="https://crisu-tv.pages.dev/logos/Telemadrid.png" group-title="Autonómicos y locales",TeleMadrid | España
+http://192.168.1.202:25461/crisu/crisu/88.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TELEHIT | España" tvg-logo="https://crisu-tv.pages.dev/logos/Telehit.png" group-title="Música",TELEHIT | España
+http://192.168.1.202:25461/crisu/crisu/89.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="The Pet Collective | Samsung TV" tvg-logo="https://crisu-tv.pages.dev/logos/ThePetCollective.png" group-title="Samsung TV",The Pet Collective | Samsung TV
+http://192.168.1.202:25461/crisu/crisu/90.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Trace Sport Stars | Samsung TV" tvg-logo="https://crisu-tv.pages.dev/logos/TraceSportStars.png" group-title="Samsung TV",Trace Sport Stars | Samsung TV
+http://192.168.1.202:25461/crisu/crisu/91.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRECE | España" tvg-logo="https://crisu-tv.pages.dev/logos/TRECE.png" group-title="Generalistas",TRECE | España
+http://192.168.1.202:25461/crisu/crisu/92.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV3 | España" tvg-logo="https://crisu-tv.pages.dev/logos/TV3.png" group-title="Autonómicos y locales",TV3 | España
+http://192.168.1.202:25461/crisu/crisu/93.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV3 CAT | España" tvg-logo="https://crisu-tv.pages.dev/logos/TV3_Cat.png" group-title="Autonómicos y locales",TV3 CAT | España
+http://192.168.1.202:25461/crisu/crisu/94.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVE Int. Europ | España" tvg-logo="https://crisu-tv.pages.dev/logos/tve-internacional.png" group-title="Noticias",TVE Int. Europ | España
+http://192.168.1.202:25461/crisu/crisu/95.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVE Star | España" tvg-logo="https://crisu-tv.pages.dev/logos/STAR_TVE.png" group-title="Cine y Series",TVE Star | España
+http://192.168.1.202:25461/crisu/crisu/96.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Vevo Pop Spain | Rakuten TV" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork-negative/7da41c68-9ad0-427a-925d-1edf4767743c-width200-quality90.png" group-title="Rakuten TV",Vevo Pop Spain | Rakuten TV
+http://192.168.1.202:25461/crisu/crisu/97.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="WarnerTV | España" tvg-logo="https://crisu-tv.pages.dev/logos/Warner_TV.png" group-title="Cine y Series",WarnerTV | España
+http://192.168.1.202:25461/crisu/crisu/98.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="WWE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/wwe-us.png" group-title="Deportes",WWE
+http://192.168.1.202:25461/crisu/crisu/99.m3u8
