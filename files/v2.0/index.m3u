@@ -2,7 +2,7 @@
 
 # Crisutf
 #EXTINF:-1 group-title="Crisutf",Test
-https://192.168.1.200:4080/HypermontionTV/index.m3u8
+http://192.168.1.200/HypermontionTV/index.m3u8
 
 ##https://crisu-tv.pages.dev/media/newchannel.mp4
 
@@ -302,4 +302,5 @@ http://185.189.225.152/WarnerTV/index.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
 
