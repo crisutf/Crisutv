@@ -252,9 +252,6 @@ https://ztnr.rtve.es/ztnr/6922467.m3u8
 #EXTINF:-1,RTVE Somos Cine | España
 https://ztnr.rtve.es/ztnr/6909845.m3u8
 
-#EXTINF:-1,RTVE Talent | España
-https://ztnr.rtve.es/ztnr/16510071.m3u8
-
 #EXTINF:-1,Sky Sports | España
 http://190.92.10.66:4000/play/a001/index.m3u8
 
@@ -316,3 +313,4 @@ http://185.189.225.152/WarnerTV/index.m3u8
 
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
+
