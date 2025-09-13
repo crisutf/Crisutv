@@ -25,7 +25,7 @@ http://185.189.225.149/A3Series/index.m3u8
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
 
 #EXTINF:-1,AMC ⚠️ | España
-http://185.189.225.150:85/AMC/index.m3u8
+http://185.189.225.149/AMCHD/index.m3u8
 
 #EXTINF:-1,Antena 3 | España
 http://185.189.225.152/Antena3HD/index.m3u8
@@ -150,6 +150,9 @@ http://185.189.225.149/historia/index.m3u8
 #EXTINF:-1,HIT TV | España
 http://185.189.225.149/HitTV/index.m3u8
 
+#EXTINF:-1,Hollywood ⚠️ | España
+http://185.189.225.149/Hollywood/index.m3u8
+
 #EXTINF:-1,Iberalia | España
 http://185.189.225.149/iberalia/index.m3u8
 
@@ -182,6 +185,18 @@ https://daiconnect.com/live/hls/tvup/rk-ligainside/90358dc4f9a2bcc58260c53040284
 
 #EXTINF:-1,Mega | España
 http://185.189.225.149/mega/index.m3u8
+
+#EXTINF:-1,MTV 00's | España
+http://185.189.225.157/MTV00s/index.m3u8
+
+#EXTINF:-1,MTV 80's
+http://185.189.225.152/MTV80s/index.m3u8
+
+#EXTINF:-1,MTV 90's
+http://185.189.225.157/mtv90s/index.m3u8
+
+#EXTINF:-1,MTV Club
+http://185.189.225.149/MTVClub/index.m3u8
 
 #EXTINF:-1,MTV | España
 http://185.189.225.149/mtv/index.m3u8
@@ -252,6 +267,9 @@ https://ztnr.rtve.es/ztnr/6922467.m3u8
 #EXTINF:-1,RTVE Somos Cine | España
 https://ztnr.rtve.es/ztnr/6909845.m3u8
 
+#EXTINF:-1,RTVE Talent | España
+https://ztnr.rtve.es/ztnr/16510071.m3u8
+
 #EXTINF:-1,Sky Sports | España
 http://190.92.10.66:4000/play/a001/index.m3u8
 
@@ -314,4 +332,5 @@ http://185.189.225.152/WarnerTV/index.m3u8
 #EXTINF:-1,WWE
 http://181.78.106.127:9000/play/ca040/index.m3u8
 
-
+#EXTINF:-1,XTRM ⚠️ | España
+http://185.189.225.149/xtrm/index.m3u8
